@@ -646,63 +646,6 @@ function OnInput(e) {
     this.style.height = (this.scrollHeight) + 'px';
 }
 
-
-// CODE TO SEND DATA TO THE SPREADSHEET
-
-function formSubmit() {
-    jQuery('#msg').html('Please wait...');
-    jQuery('#anyaSend').attr('disabled', true);
-    jQuery.ajax({
-        url: 'https://script.google.com/macros/s/AKfycbxwWG0zwbkcVF2sd9GPCxhhntPWJw3lau1KkZBhaLpT3-A_LD71RUwW_Dol218WS6b5Uw/exec',
-        type: 'post',
-        data: jQuery('#my_form').serialize(),
-        success: function (result) {
-            jQuery('#msg').html('Uploaded to Google');
-            jQuery('#anyaSend').attr('disabled', false);
-            //window.location.href='';
-        }
-    });
-}
-
-
-
-
-// CODE TO GET DATA FROM THE SPREADSHEET
-
-var values;
-var rowcnt=1;
-function loadSheetsApi() {
-    gapi.client.sheets.spreadsheets.values.get({
-        'spreadsheetId': '1Qlbu70-5lk2LzMXawtLIKUl-2paM2oXcznmk1ZCjwnI',
-        'range': 'Sheet1!A1:Z',
-    }).then(function (response) {
-        values = response.result.values;
-        console.log(values);
-        console.log(values[1][1]); // displays 'B2'
-        document.getElementById("ques").value = values[values.length - rowcnt][0];
-        document.getElementById("opt1").value = values[values.length - rowcnt][1];
-        document.getElementById("opt2").value = values[values.length - rowcnt][2];
-        document.getElementById("opt3").value = values[values.length - rowcnt][3];
-        document.getElementById("opt4").value = values[values.length - rowcnt][4];
-        document.getElementById("expla_box").value = values[values.length - rowcnt][5];
-        rowcnt=rowcnt+1; 
-    }, function (reason) {
-        console.log('Error: ' + reason.result.error.message);
-    });
-
-}
-
-function loadGsheet() {
-    gapi.load('client', function () {
-        gapi.client.init({
-            'apiKey': 'AIzaSyDSuQg1GLYFXoaBA87mtydmKGbBCSc25pA',
-            'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
-        }).then(loadSheetsApi);
-    });
-}
-// CODE TO GET DATA FROM THE SPREADSHEET ENDS HERE
-
-
 </script>
 <script>
 const form = document.querySelector('form');
