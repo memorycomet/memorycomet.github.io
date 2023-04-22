@@ -704,6 +704,20 @@ function formSubmit() {
     document.getElementById("opt3").value="";
     document.getElementById("opt4").value="";
     document.getElementById("expla_box").value="";
+    
+    
+// Add event listener to the clear button
+clearBtn.addEventListener('click', () => {
+  // Clear the form data from local storage
+  localStorage.removeItem('formData');
+  // Clear the input values
+  input1.value = '';
+  input2.value = '';
+  input3.value = '';
+  input4.value = '';
+  input5.value = '';
+  input6.value = '';
+});
 	}
 </script>
  
