@@ -462,15 +462,15 @@ html {
 
 //Quote bot token
 
-/*
+
      var BOTOKEN="5759252114:AAF0HrYdI63hu-UJ6_ZyWruhLG80J-CqwrU";
      var CHATID="@mecowords"; 
-     */
      
-
+     
+/*
       var BOTOKEN = "5656555359:AAFFJbU5SYetDvaHMQ5AaDglrXtMZOJRd3g";
       var CHATID = "@tryphpbott";
-
+*/
 
       var url = 'https://api.telegram.org/bot' + BOTOKEN + '/sendPoll?chat_id=' + CHATID + '&question=' + question + '&options=["' + opt1 + '","' + opt2 + '","' + opt3 + '","' + opt4 + '"]&type=quiz&correct_option_id=' + crrt + '&explanation=' + expla + '&explanation_parse_mode=html';
       //  url=(url.replaceAll('\n', '%0A'));
@@ -503,7 +503,7 @@ html {
         console.log(url4);
        var oReq = new XMLHttpRequest();
         oReq.open("GET", url4, true);
-  //     oReq.send();
+       oReq.send();
         
         
         //sending in AANYA id using Newsadbot
