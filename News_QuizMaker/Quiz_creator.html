@@ -488,6 +488,9 @@ html {
         if (response.ok) {
           alert("Quiz sent successfully");
           my_form.reset();
+          
+          //remove cookies data of form as well so it won't refill again
+          localStorage.removeItem('formData');
         } else {
           alert("Error sending quiz poll: " + response.description);
          }
