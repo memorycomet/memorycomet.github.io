@@ -14,16 +14,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/*
-.title {
-  text-align: center;
-  margin-bottom: 25px;
-  text-decoration: underline;
-  background-image: linear-gradient(to right, #E61D2F 25%, #FA6C16);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-*/
+
 .title {
   font-size: 36px;
   color: #fff;
@@ -113,11 +104,11 @@ body {
   }
 
   .question {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .question-size {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 /* Add any other styles as needed */
