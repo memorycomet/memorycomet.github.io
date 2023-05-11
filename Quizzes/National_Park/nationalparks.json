@@ -1,0 +1,55 @@
+{
+    "questions": [
+      {
+        "question": "City forest National Park",
+        "explanation": "City forest",
+        "correctAnswer": "Jammu & Kashmir"
+      },
+      {
+        "question": "Dachigam National Park",
+        "explanation": "Dachigam",
+        "correctAnswer": "Jammu & Kashmir"
+      },
+      {
+        "question": "Kistwar National Park",
+        "explanation": "Kistwar",
+        "correctAnswer": "Jammu & Kashmir"
+      },
+      {
+        "question": "Hemis National Park",
+        "explanation": "Hemis",
+        "correctAnswer": "Ladakh"
+      },
+      {
+        "question": "Great Himalayan National Park",
+        "correctAnswer": "Himachal Pradesh"
+      },
+      {
+        "question": "Nanda Devi National Park",
+        "explanation": "Nanda Devi",
+        "correctAnswer": "Uttarakhand"
+      },
+      {
+        "question": "Gundy National Park",
+        "explanation": "Gundy",
+        "correctAnswer": "Tamil Nadu"
+      },
+      {
+        "question": "Eravikulam National Park",
+        "explanation": "Eravikulam",
+        "correctAnswer": "Kerala"
+      },
+      {
+        "question": "Keibul Lamjao National Park",
+        "explanation": "Keibul",
+        "correctAnswer": "Manipur"
+      },
+      {
+        "question": "Nameri National Park",
+        "explanation": "Nameri",
+        "correctAnswer": "Assam"
+      }
+    ],
+    "states": ["Jammu & Kashmir", "Himachal Pradesh", "Tamil Nadu", "Kerala", "Assam", "Maharashtra", "Karnataka", "Ladakh", "Uttarakhand", "Manipur"]
+  }
+  
