@@ -100,15 +100,15 @@ body {
 
 @media only screen and (max-width: 480px) {
   .title {
-      font-size: 20px;
+      font-size: 27px;
   }
 
   .question {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .question-size {
-    font-size: 30px;
+    font-size: 19px;
 }
 
 /* Add any other styles as needed */
