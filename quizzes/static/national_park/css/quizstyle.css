@@ -1,0 +1,253 @@
+@import url("../../../../css/theme.css");
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  margin-bottom: 400px;
+}
+
+h1 {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-family: "Helvetica", serif;
+}
+
+#result-container {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#result-container p {
+  margin: 10px;
+}
+
+#result-container p span {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: linear-gradient(to bottom, #00020c, #000000);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: 1px solid #A852FF;
+}
+
+
+
+.title {
+  font-size: 33px;
+  background: linear-gradient(to bottom, #ffffff, #a700a7);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 10px;
+  
+  
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+.options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.options li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #555;
+  border: 1px solid #888;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.options li:hover {
+  background-color:#2f233a;
+  border: 1px solid #A852FF;
+}
+
+
+.options li.correct {
+  background-color: #1a9641;
+  border-color: #1a9641;
+}
+
+.options li.incorrect {
+  background-color: #e42c2f;
+  border-color: #d7191c;
+}
+
+.options li.correct::before {
+  content: "\2713";
+  color: #fff;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.options li.incorrect::before {
+  content: "\2717";
+  color: #fff;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.explanation {
+  margin-bottom: 20px;
+}
+
+.next-button {
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #8000ff, #de00ff);
+  border-radius: 50px 50px 50px 50px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.next-button:hover {
+  background-image: linear-gradient(to right, var(--main-gradient-start) 20%, var(--main-gradient-end) );
+}
+
+.next-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(0, 0, 0), 0 0 0 4px #dd66ff;
+  /* Add a white and orange border on focus */
+}
+.next-button::after {
+  content: "\f054"; /* Font Awesome arrow-right icon */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-left: 5px;
+}
+.next-button:active{
+  position: relative;
+  top: 1px;
+}
+
+
+.custom-button {
+  background-color: #000;
+  color: #dd66ff;
+  border: 1px solid #dd66ff;
+  padding: 10px 20px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  /* Remove the default outline on focus */
+}
+
+.custom-button:hover {
+  background-color: #dd66ff;
+  color: #fff;
+  box-shadow: 0 0 10px #bd61d6;
+  /* Add a subtle box-shadow on hover */
+}
+
+.custom-button::after {
+  content: "\f129";
+  /* Unicode for an arrow-right icon */
+  font-family: "Font Awesome 5 Free";
+  /* Assuming you're using Font Awesome */
+  margin-left: 5px;
+}
+
+.custom-button:focus {
+  box-shadow: 0 0 0 1px #dd66ff;
+  /* Add an orange border on focus */
+}
+
+.container {
+  position: relative;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #c488ff;;
+  background-color: #111111;
+  padding: 5px 0 5px 10px;
+  /* Adjust the padding values as needed */
+  color: #cbcbcb;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.score::before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+}
+
+
+.divider {
+  height: 100%;
+  border-left: 1px solid black;
+  margin: 0 8px;
+}
+
+
+
+#correctscore {
+  border-right: 1px solid #c488ff;
+  padding: 0 5px;
+  margin-right: 5px;
+  width: 20px;
+}
+
+#incorrectscore {
+  padding: 0 5px;
+  margin-right: 5px;
+  width: 20px;
+}
