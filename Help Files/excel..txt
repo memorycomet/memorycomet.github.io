@@ -1,1 +1,0 @@
-=PROPER(A1) & " National Park"
