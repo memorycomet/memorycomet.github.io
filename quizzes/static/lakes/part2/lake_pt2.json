@@ -1,0 +1,131 @@
+{
+    "questions": [
+    {
+        "question": "Pushkar Lake",
+        "correctAnswer": "Rajasthan",
+        "explanation": "❃ Located in the town of Pushkar, Rajasthan, India. <br> ❃ Considered one of the most sacred lakes in Hindu mythology. <br> ❃ Surrounded by 52 ghats and numerous temples. <br> ❃ Hosts the famous Pushkar Camel Fair annually."
+    },
+    {
+        "question": "Bhimtal Lake",
+        "correctAnswer": "Uttarakhand",
+        "explanation": "❃ Situated in the town of Bhimtal, Uttarakhand. <br> ❃ Named after the legendary character Bhima from the Mahabharata. <br> ❃ It is the largest lake in the Kumaon region. <br> ❃ Offers boating and fishing activities to visitors."
+    },
+    {
+        "question": "Nainital Lake",
+        "correctAnswer": "Uttarakhand",
+        "explanation": "❃ Located in the town of Nainital, Uttarakhand. <br> ❃ Known as the Queen of Lakes in India. <br> ❃ Surrounded by hills and offers breathtaking views. <br> ❃ Popular for boating and serves as the main tourist attraction in Nainital."
+    },
+    {
+        "question": "Devtal Lake",
+        "correctAnswer": "Uttarakhand",
+        "explanation": "❃ Situated in the Pithoragarh district of Uttarakhand. <br> ❃ A serene lake surrounded by lush greenery and forests. <br> ❃ Considered sacred by the locals and attracts pilgrims. <br> ❃ Offers a peaceful environment and scenic beauty."
+    },
+    {
+        "question": "Malatal Lake",
+        "correctAnswer": "Uttarakhand",
+        "explanation": "❃ Located in the Tehri Garhwal district of Uttarakhand. <br> ❃ A beautiful lake surrounded by mountains and forests. <br> ❃ Offers a peaceful atmosphere and scenic surroundings. <br> ❃ Suitable for activities like boating and photography."
+    },
+    {
+        "question": "Lonar Lake",
+        "correctAnswer": "Maharashtra",
+        "explanation": "❃ Situated in Maharashtra, India. <br> ❃ A unique lake formed in a meteorite impact crater. <br> ❃ Known for its alkaline and saline water. <br> ❃ The lake is surrounded by a dense forest and attracts researchers and nature enthusiasts."
+    },
+    {
+        "question": "Chillika Lake",
+        "correctAnswer": "Orissa",
+        "explanation": "❃ Located in Odisha, India. <br> ❃ The largest brackish water lake in India and Asia. <br> ❃ A significant ecosystem with numerous species of migratory birds and dolphins. <br> ❃ Designated as a Ramsar site and a wildlife sanctuary."
+    },
+    {
+        "question": "Victoria Lake",
+        "correctAnswer": "Orissa",
+        "explanation": "❃ Located in Uganda and Tanzania. <br> ❃ The largest lake in Africa and the second-largest freshwater lake in the world. <br> ❃ Shared by Uganda and Tanzania. <br> ❃ Offers opportunities for fishing, boating, and wildlife viewing."
+    },
+    {
+        "question": "Anshupa Lake",
+        "correctAnswer": "Orissa",
+        "explanation": "❃ Situated in Odisha, India. <br> ❃ A freshwater lake surrounded by hills and forests. <br> ❃ Known for its scenic beauty and tranquility. <br> ❃ Home to various species of birds and fishes."
+    },
+    {
+        "question": "Kanjia Lake",
+        "correctAnswer": "Orissa",
+        "explanation": "❃ Located near Bhubaneswar in Odisha, India. <br> ❃ A man-made lake developed for the conservation of migratory birds. <br> ❃ Home to numerous resident and migratory bird species. <br> ❃ Offers birdwatching and boating facilities."
+    },
+    {
+        "question": "Loktak Lake",
+        "correctAnswer": "Manipur",
+        "explanation": "❃ Situated in Manipur, India. <br> ❃ The largest freshwater lake in Northeast India. <br> ❃ Known for its floating phumdis (massive vegetation islands). <br> ❃ Home to the endangered Manipur brow-antlered deer (Sangai)."
+    },
+    {
+        "question": "Cholamu Lake",
+        "correctAnswer": "Sikkim",
+        "explanation": "❃ Located in Sikkim, India. <br> ❃ One of the highest lakes in the world at an elevation of approximately 5,330 meters (17,490 feet). <br> ❃ Surrounded by snow-capped mountains and pristine beauty. <br> ❃ Requires special permits to visit due to its sensitive location."
+    },
+    {
+        "question": "Gurudongmar Lake",
+        "correctAnswer": "Sikkim",
+        "explanation": "❃ Situated in Sikkim, India. <br> ❃ One of the highest lakes in the world at an elevation of around 5,183 meters (17,060 feet). <br> ❃ Considered sacred by Buddhists and Hindus. <br> ❃ Surrounded by snow❃covered peaks and breathtaking landscapes."
+    },
+    {
+        "question": "Khecheopalri Lake",
+        "correctAnswer": "Sikkim",
+        "explanation": "❃ Located in Sikkim, India. <br> ❃ Considered a sacred lake by Buddhists and Hindus. <br> ❃ Surrounded by dense forests and hills. <br> ❃ Known for its crystal-clear water and peaceful ambiance."
+    },
+    {
+        "question": "Tsongmo Lake",
+        "correctAnswer": "Sikkim",
+        "explanation": "❃ Situated in Sikkim, India. <br> ❃ Also known as Changu Lake. <br> ❃ A glacial lake surrounded by snow-capped mountains. <br> ❃ Offers yak rides and serves as a popular tourist destination."
+    },
+  
+    {
+        "question": "Ashtamudi Lake",
+        "correctAnswer": "Kerala",
+        "explanation": "❃ Located in Kerala, India. <br> ❃ The second❃largest lake in Kerala. <br> ❃ Known for its backwater cruises and houseboat tourism. <br> ❃ Offers scenic beauty and a tranquil environment."
+    },
+    {
+        "question": "Periyar Lake",
+        "correctAnswer": "Kerala",
+        "explanation": "❃ Situated in Kerala, India. <br> ❃ A reservoir created by the Mullaperiyar Dam on the Periyar River. <br> ❃ Surrounded by the Periyar Tiger Reserve. <br> ❃ Offers boat safaris for wildlife spotting."
+    },
+    {
+        "question": "Sasthamkotta Lake",
+        "correctAnswer": "Kerala",
+        "explanation": "❃ Located in Kerala, India. <br> ❃ The largest freshwater lake in Kerala. <br> ❃ Known for its religious significance and the Sastha Temple on its banks. <br> ❃ Supports a rich aquatic ecosystem and birdlife."
+    },
+    {
+        "question": "Vellayani Lake",
+        "correctAnswer": "Kerala",
+        "explanation": "❃ Situated in Kerala, India. <br> ❃ The largest freshwater lake in Thiruvananthapuram. <br> ❃ Surrounded by lush greenery and scenic beauty. <br> ❃ Hosts the annual Vellayani Lake Festival."
+    },
+    {
+        "question": "Veli Lake",
+        "correctAnswer": "Kerala",
+        "explanation": "❃ Located in Kerala, India. <br> ❃ A lagoon separated from the Arabian Sea by a barrier beach. <br> ❃ Offers boating facilities and a children's park. <br> ❃ Known for its scenic beauty and serene atmosphere."
+    },
+    {
+        "question": "Pulicat Lagoon",
+        "correctAnswer": "Andra Pradesh",
+        "explanation": "❃ Situated in Andhra Pradesh and Tamil Nadu, India. <br> ❃ The second❃largest brackish water lagoon in India. <br> ❃ A haven for migratory birds and home to various fish species. <br> ❃ Designated as a wildlife sanctuary and a Ramsar site."
+    },
+    {
+        "question": "Kolleru Lake",
+        "correctAnswer": "Andra Pradesh",
+        "explanation": "❃ Located in Andhra Pradesh, India. <br> ❃ One of the largest freshwater lakes in India. <br> ❃ A vital habitat for resident and migratory bird species. <br> ❃ Declared a Ramsar site and a wildlife sanctuary"
+    },
+    {
+        "question": "Nalsarovar Lake",
+        "correctAnswer": "Gujarat",
+        "explanation": "❃ Situated in Gujarat, India. <br> ❃ The largest bird sanctuary in Gujarat. <br> ❃ Attracts a wide variety of migratory birds during winter. <br> ❃ Offers boating facilities and birdwatching opportunities."
+    },
+    {
+        "question": "Hussain Sagar Lake",
+        "correctAnswer": "Telangana",
+        "explanation": "❃ Located in Hyderabad, Telangana, India. <br> ❃ A man❃made lake built by Ibrahim Quli Qutb Shah. <br> ❃ Known for its iconic Buddha statue in the middle of the lake. <br> ❃ Offers boating and a scenic view of the city."
+    },
+    {
+        "question": "Kanwaar Taal Lake",
+        "correctAnswer": "Bihar",
+        "explanation": "❃ Situated in Bihar, India. <br> ❃ The largest freshwater oxbow lake in Asia. <br> ❃ Home to numerous resident and migratory bird species. <br> ❃ Declared a wetland of international importance under the Ramsar Convention."
+    }
+],
+"states": ["Jammu & Kashmir", "Ladakh","Himachal Pradesh","Uttarakhand","Uttar Pradesh","Bihar","Jharkhand","West Bengal","Odisha","Rajasthan","Gujarat","Madhya Pradesh","Chhatisgarh","Assam","Sikkim","Manipur","Maharashtra","Andhra Pradesh","Karnataka","Kerala","Tamil Nadu","Nagaland","Mizoram","Haryana", "Andaman & Nicobar Islands"]
+}
