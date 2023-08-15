@@ -1,0 +1,205 @@
+{
+  "questions": [
+    {
+        "question": "Khangchendzonga National Park",
+        "correctAnswer": "Sikkim",
+        "explanation": " Located in Sikkim, Khangchendzonga is a UNESCO World Heritage Site and home to India's highest peak."
+    },
+    {
+        "question": "Keibul Lamjao National Park",
+        "correctAnswer": "Manipur",
+        "explanation": "Situated in Manipur, Keibul Lamjao is the only floating national park in the world. It is known for its unique Loktak Lake, phumdis (floating islands),"
+    },
+    {
+        "question": "Chandoli National Park",
+        "correctAnswer": "Maharashtra",
+        "explanation": "Located in Maharashtra, Chandoli National Park is known for its scenic beauty, dense forests, and diverse wildlife, including species like tigers, leopards, and Indian bison."
+    },
+    {
+        "question": "Gugamal National Park",
+        "correctAnswer": "Maharashtra",
+        "explanation": "Situated in Maharashtra, Gugamal National Park is part of the Melghat Tiger Reserve and is known for its rich biodiversity, including the presence of tigers, leopards, sloth bears, and several bird species."
+    },
+    {
+        "question": "Tadoba National Park",
+        "correctAnswer": "Maharashtra",
+        "explanation": "Located in Maharashtra, Tadoba National Park is one of India's premier tiger reserves and is known for its high density of tigers. It also houses a variety of other wildlife, such as leopards, Indian gaur, and sambar deer."
+    },
+    {
+        "question": "Nawegaon National Park",
+        "correctAnswer": "Maharashtra",
+        "explanation": " Situated in Maharashtra, Nawegaon National Park is known for its picturesque landscapes, a large lake, and a rich avian population. It provides a habitat for several bird species and is a popular spot for birdwatching."
+    },
+    {
+        "question": "Sanjay Gandhi (Borivali) National Park",
+        "correctAnswer": "Maharashtra",
+        "explanation": " Located in Maharashtra, Sanjay Gandhi National Park, also known as Borivali National Park, is situated within Mumbai city. It is a unique national park with a mix of dense forests, wildlife, ancient rock caves, and the famous Kanheri Caves."
+    },
+    {
+        "question": "Sri Venkateswara National Park",
+        "correctAnswer": "Andhra Pradesh",
+        "explanation": "Situated in Andhra Pradesh, Sri Venkateswara National Park is known for its diverse flora and fauna, including various species of mammals, reptiles, and birds. It also encompasses the sacred Tirumala Hills."
+    },
+    {
+        "question": "Rajiv Gandhi National Park",
+        "correctAnswer": "Andhra Pradesh",
+        "explanation": "Located in Karnataka, Rajiv Gandhi National Park, formerly known as Nagarhole National Park, is a prominent tiger reserve and biosphere reserve. It is known for its lush forests, rich wildlife, and the Kabini River."
+    },
+    {
+        "question": "Papikonda National Park",
+        "correctAnswer": "Andhra Pradesh",
+        "explanation": "Situated in Andhra Pradesh, Papikonda National Park is known for its scenic landscapes, dense forests, and the presence of endangered species such as the fishing cat, smooth-coated otter, and the Indian leopard."
+    },
+    {
+        "question": "Anshi National Park",
+        "correctAnswer": "Karnataka",
+        "explanation": "Located in Karnataka, Anshi National Park is part of the Western Ghats and is known for its biodiversity. It is home to several species of animals, including tigers, elephants, and the black panther."
+    },
+    {
+        "question": "Bandipur National Park",
+        "correctAnswer": "Karnataka",
+        "explanation": "Situated in Karnataka, Bandipur National Park is one of the well-known tiger reserves in India. It is famous for its diverse wildlife, including tigers, elephants, gaurs, and a variety of bird species"
+    },
+    {
+        "question": "Nagarhole National Park",
+        "correctAnswer": "Karnataka",
+        "explanation": " Located in Karnataka, Nagarhole National Park is a popular wildlife destination known for its abundant flora and fauna. It is home to tigers, elephants, Indian bison, and several bird species."
+    },
+    {
+        "question": "Bannerghatta National Park",
+        "correctAnswer": "Karnataka",
+        "explanation": "Situated near Bengaluru in Karnataka, Bannerghatta National Park is a biological reserve known for its wildlife safari, zoo, butterfly park, and rescue center for orphaned animals."
+    },
+    {
+        "question": "Kudremukh National Park",
+        "correctAnswer": "Karnataka",
+        "explanation": "Located in Karnataka, Kudremukh National Park is known for its mesmerizing landscapes, rolling hills, grasslands, and evergreen forests. It is home to several species of flora and fauna, including the endangered lion-tailed macaque."
+    },
+    {
+        "question": "Anamudi Shola National Park",
+        "correctAnswer": "Kerala",
+        "explanation": "Situated in Kerala, Anamudi Shola National Park is known for its unique shola forests, high-altitude grasslands, and the presence of the endangered Nilgiri tahr, as well as other wildlife species."
+    },
+    {
+        "question": "Eravikulam National Park",
+        "correctAnswer": "Kerala",
+        "explanation": " Located in Kerala, Eravikulam National Park is home to the endangered Nilgiri tahr. It is known for its stunning landscapes, rolling hills, and vast stretches of grasslands."
+    },
+    {
+        "question": "Mathikettan Shola National Park",
+        "correctAnswer": "Kerala",
+        "explanation": "Situated in Kerala, Mathikettan Shola National Park is known for its undisturbed shola forests, grasslands, and the presence of several endemic species of birds, butterflies, and orchids."
+    },
+    {
+        "question": "Pambadum Shola National Park",
+        "correctAnswer": "Kerala",
+        "explanation": "Located in Kerala, Pambadum Shola National Park is known for its high-altitude evergreen forests, shola grasslands, and the presence of the endangered Nilgiri marten and the white-bellied blue flycatcher"
+    },
+    {
+        "question": "Silent Valley National Park",
+        "correctAnswer": "Kerala",
+        "explanation": " Situated in Kerala, Silent Valley National Park is a pristine rainforest known for its rich biodiversity and unique ecological importance. It is home to several rare and endemic species of plants, animals, and birds."
+    },
+    {
+        "question": "Periyar National Park and Wildlife Sanctuary",
+        "correctAnswer": "Kerala",
+        "explanation": "Located in Kerala, Periyar National Park and Wildlife Sanctuary is famous for its scenic beauty, dense forests, and the presence of the critically endangered Nilgiri langur and the Bengal tiger. The Periyar Lake adds to the park's charm, offering boat safaris to spot wildlife."
+    },
+    {
+        "question": "Gundy National Park",
+        "correctAnswer": "Tamil Nadu",
+        "explanation": "Gundy National Park, located in Tamil Nadu, is known for its diverse flora and fauna, including species like elephants, tigers, leopards, and various bird species. It offers scenic landscapes and opportunities for wildlife sightings."
+    },
+    {
+        "question": "Gulf Of Mannar Marine National Park",
+        "correctAnswer": "Tamil Nadu",
+        "explanation": "Situated in Tamil Nadu, Gulf of Mannar Marine National Park is a biosphere reserve and a UNESCO World Heritage Site. It is known for its rich marine biodiversity, coral reefs, seagrass beds, and rare marine species like dugongs, dolphins, and sea turtles."
+    },
+    {
+        "question": "Indira Gandhi (Annamalai) National Park",
+        "correctAnswer": "Tamil Nadu",
+        "explanation": "Located in Tamil Nadu, Indira Gandhi National Park, also known as Annamalai National Park, is a part of the Anamalai Tiger Reserve. It is home to a wide range of wildlife, including tigers, elephants, leopards, and many bird species."
+    },
+    {
+        "question": "Mudumalai National Park",
+        "correctAnswer": "Tamil Nadu",
+        "explanation": "Situated in Tamil Nadu, Mudumalai National Park is known for its diverse wildlife, including tigers, leopards, elephants, and gaur. It also offers scenic beauty with its lush forests, waterfalls, and picturesque landscapes."
+    },
+    {
+        "question": "Mukurthi National Park",
+        "correctAnswer": "Tamil Nadu",
+        "explanation": " Located in Tamil Nadu, Mukurthi National Park is known for its unique montane grasslands, shola forests, and the presence of the Nilgiri tahr. It is a haven for birdwatchers and nature enthusiasts."
+    },
+    {
+        "question": "Ntangki/Intanki National Park",
+        "correctAnswer": "Nagaland",
+        "explanation": "Situated in Nagaland, Ntangki/Intanki National Park is known for its lush forests, scenic landscapes, and diverse wildlife. It is home to various species of mammals, birds, and reptiles."
+    },
+    {
+        "question": "Murlen National Park",
+        "correctAnswer": "Mizoram",
+        "explanation": "Located in Mizoram, Murlen National Park is known for its rich biodiversity, including several endemic species. It is home to mammals like the tiger, leopard, and sambar deer, along with a variety of bird species."
+    },
+    {
+        "question": "Phawngpui National Park",
+        "correctAnswer": "Mizoram",
+        "explanation": "Situated in Mizoram, Phawngpui National Park is known for its highest peak in Mizoram, Phawngpui Blue Mountain. It is home to several endemic species of birds, orchids, and other flora and fauna."
+    },
+    {
+        "question": "Kalesar National Park",
+        "correctAnswer": "Haryana",
+        "explanation": "Located in Haryana, Kalesar National Park is known for its diverse vegetation, including sal forests, grasslands, and riverine ecosystems. It provides a habitat for wildlife species such as elephants, leopards, and antelopes."
+    },
+    {
+        "question": "Sultanpur National Park",
+        "correctAnswer": "Haryana",
+        "explanation": "Situated in Haryana, Sultanpur National Park is a popular bird sanctuary known for its rich avian population. It attracts numerous migratory birds during the winter season and offers excellent opportunities for birdwatching."
+    },
+    {
+        "question": "North Button Island National Park",
+        "correctAnswer": "Haryana",
+        "explanation": "Located in the Andaman and Nicobar Islands, it is known for its rich marine biodiversity, coral reefs, and diverse aquatic species, including dugongs, sea turtles, and various fish species."
+    },
+    {
+        "question": "Middle Button Island National Park",
+        "correctAnswer": "Andaman & Nicobar Islands",
+        "explanation": "Located in the Andaman and Nicobar Islands, it is known for its rich marine biodiversity, coral reefs, and diverse aquatic species, including dugongs, sea turtles, and various fish species."
+    },
+    {
+        "question": "South Button Island National Park",
+        "correctAnswer": "Andaman & Nicobar Islands",
+        "explanation": "Located in the Andaman and Nicobar Islands, it is known for its rich marine biodiversity, coral reefs, and diverse aquatic species, including dugongs, sea turtles, and various fish species."
+    },
+    {
+        "question": "Mahatma Gandhi Marine (Wandoor) National Park",
+        "correctAnswer": "Andaman & Nicobar Islands",
+        "explanation": "Situated in the Andaman and Nicobar Islands, Mahatma Gandhi Marine National Park is known for its pristine coral reefs, vibrant marine life, and clear turquoise waters. It offers opportunities for snorkeling, diving, and exploring the underwater world."
+    },
+    {
+        "question": "Rani Jhansi Marine National Park",
+        "correctAnswer": "Andaman & Nicobar Islands",
+        "explanation": "Located in the Andaman and Nicobar Islands, Rani Jhansi Marine National Park is known for its beautiful coral reefs, diverse marine ecosystems"
+    },
+    {
+        "question": "Campbell Bay National Park",
+        "correctAnswer": "Andaman & Nicobar Islands",
+        "explanation": "Situated in the Nicobar Islands, Campbell Bay National Park is known for its rich biodiversity and pristine rainforests. It is home to various endemic species, including the Nicobar megapode, Nicobar pigeon, and crab-eating macaque."
+    },
+    {
+        "question": "Galathea Bay National Park",
+        "correctAnswer": "Andaman & Nicobar Islands",
+        "explanation": " Located in the Nicobar Islands, Galathea Bay National Park is known for its stunning coral reefs, diverse marine life, and underwater biodiversity. It offers opportunities for snorkeling and diving."
+    },
+    {
+        "question": "Mount Harriett National Park",
+        "correctAnswer": "Andaman & Nicobar Islands",
+        "explanation": " Situated in the Andaman Islands, Mount Harriett National Park is known for its dense forests, scenic landscapes, and a variety of bird species. It offers trekking trails and viewpoints for panoramic views."
+    },
+    {
+        "question": "Saddle Peak National Park",
+        "correctAnswer": "Andaman & Nicobar Islands",
+        "explanation": "Located in the Andaman Islands, Saddle Peak National Park is known for its highest peak in the archipelago, Saddle Peak. It is covered with dense forests and is home to various bird species and wildlife."
+    }
+],
+"states": ["Jammu & Kashmir", "Ladakh","Himachal Pradesh","Uttarakhand","Uttar Pradesh","Bihar","Jharkhand","West Bengal","Odisha","Rajasthan","Gujarat","Madhya Pradesh","Chhatisgarh","Assam","Sikkim","Manipur","Maharashtra","Andhra Pradesh","Karnataka","Kerala","Tamil Nadu","Nagaland","Mizoram","Haryana", "Andaman & Nicobar Islands"]
+}

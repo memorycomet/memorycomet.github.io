@@ -1,0 +1,155 @@
+{
+  "questions": [
+    {
+      "question": "City forest National Park",
+      "explanation": "City forest National Park is located in Jammu & Kashmir. It is known for its diverse flora and fauna, including several endangered species. It provides a vital ecosystem service by acting as a carbon sink and helps in maintaining the ecological balance.",
+      "correctAnswer": "Jammu & Kashmir"
+    },
+    {
+      "question": "Dachigam National Park",
+      "explanation": "Dachigam National Park is situated in Jammu & Kashmir. It is known for its population of the endangered Hangul or Kashmir stag, which is found exclusively in this region. The park also serves as a catchment area for the drinking water supply of Srinagar.",
+      "correctAnswer": "Jammu & Kashmir"
+    },
+    
+  
+    
+    {
+      "question": "Great Himalayan National Park",
+      "explanation": "Great Himalayan National Park is located in Himachal Pradesh. It is a UNESCO World Heritage Site and is known for its rich biodiversity and stunning landscapes. The park is home to several endangered species, including the Western Tragopan and the Snow Leopard.",
+      "correctAnswer": "Himachal Pradesh"
+    },
+    {
+      "question": "Simbalbara National Park",
+      "explanation": "",
+      "correctAnswer": "Himachal Pradesh"
+    },
+    {
+      "question": "Inderkila National Park",
+      "explanation": "",
+      "correctAnswer": "Himachal Pradesh"
+    },
+    {
+      "question": "Pin Valley National Park",
+      "explanation": "",
+      "correctAnswer": "Himachal Pradesh"
+    },
+    {
+      "question": "Khirganga National Park",
+      "explanation": "",
+      "correctAnswer": "Himachal Pradesh"
+    },
+
+
+
+    {
+      "question": "Nanda Devi National Park",
+      "explanation": "Nanda Devi National Park is situated in Uttarakhand. It is a UNESCO World Heritage Site and is known for its majestic peaks, glaciers, and alpine meadows. The park is home to several rare and endangered species, including the Himalayan musk deer and the Asiatic black bear.",
+      "correctAnswer": "Uttarakhand"
+    },
+    {
+      "question": "Govind Pashu National Park",
+      "explanation": "",
+      "correctAnswer": "Uttarakhand"
+    },
+    {
+      "question": "Rajaji National Park",
+      "explanation": "",
+      "correctAnswer": "Uttarakhand"
+    },
+    {
+      "question": "Valley of flowers National Park",
+      "explanation": "",
+      "correctAnswer": "Uttarakhand"
+    },
+    {
+      "question": "Jim Corbett National Park",
+      "explanation": "",
+      "correctAnswer": "Uttarakhand"
+    },
+    
+
+    {
+      "question": "Dudhwa National Park",
+      "explanation": "",
+      "correctAnswer": "Uttar Pradesh"
+    },
+
+    {
+      "question": "Valmiki National Park",
+      "explanation": "",
+      "correctAnswer": "Bihar"
+    },
+
+
+    {
+      "question": "Betla National Park",
+      "explanation": "",
+      "correctAnswer": "Jharkhand"
+    },
+
+    {
+      "question": "Singalila National Park",
+      "explanation": "",
+      "correctAnswer": "West Bengal"
+    },
+    {
+      "question": "Gorumara National Park",
+      "explanation": "",
+      "correctAnswer": "West Bengal"
+    },
+    {
+      "question": "Neora National Park",
+      "explanation": "",
+      "correctAnswer": "West Bengal"
+    },
+    {
+      "question": "Buxa National Park",
+      "explanation": "",
+      "correctAnswer": "West Bengal"
+    },
+    {
+      "question": "Jaldapara National Park",
+      "explanation": "",
+      "correctAnswer": "West Bengal"
+    },
+    
+    
+
+
+
+
+
+    {
+      "question": "Kistwar National Park",
+      "correctAnswer": "Jammu & Kashmir",
+      "explanation": "Kistwar National Park is located in Jammu & Kashmir. It is known for its rich biodiversity and picturesque landscapes. The park provides habitat to several species of wildlife, including the Himalayan black bear and the musk deer."
+    },
+    {
+      "question": "Hemis National Park",
+      "explanation": "Hemis National Park is situated in Ladakh. It is the largest national park in South Asia and is known for its snow leopards. The park serves as an important conservation area for high-altitude wildlife and plays a crucial role in preserving the unique mountain ecosystem.",
+      "correctAnswer": "Ladakh"
+    },
+    {
+      "question": "Gundy National Park",
+      "explanation": "Gundy National Park is located in Tamil Nadu. It is known for its unique and fragile ecosystem, consisting of tropical dry evergreen forests. The park is home to a variety of wildlife species, including the Nilgiri tahr and the lion-tailed macaque.",
+      "correctAnswer": "Tamil Nadu"
+    },
+    {
+      "question": "Eravikulam National Park",
+      "explanation": "Eravikulam National Park is situated in Kerala. It is known for its vast expanse of rolling grasslands and shola forests. The park is home to the endangered Nilgiri Tahr and offers breathtaking views of the surrounding hills and tea plantations.",
+      "correctAnswer": "Kerala"
+    },
+    {
+      "question": "Keibul Lamjao National Park",
+      "explanation": "Keibul Lamjao National Park is located in Manipur. It is the world's only floating national park and is famous for its phumdis, which are masses of vegetation floating on the Loktak Lake.",
+        "correctAnswer": "Manipur"
+      },
+      {
+        "question": "Nameri National Park",
+        "explanation": "Nameri National Park is a national park in the foothills of the eastern Himalayas in the Sonitpur District of Assam, India, about 35 km from Tezpur.",
+        "correctAnswer": "Assam"
+      }
+    ],
+    "states": ["Jammu & Kashmir", "Himachal Pradesh", "Tamil Nadu", "Kerala", "Assam", "Maharashtra", "Karnataka", "Ladakh", "Uttarakhand", "Manipur"]
+  }
+  

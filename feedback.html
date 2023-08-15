@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #EEEEEE;
+      margin: auto;
+    }
+
+    /* Add this style to center content */
+    .container {
+      display: block;
+      justify-content: center;
+      margin: 0 auto;
+      /* Center the container horizontally */
+      align-items: center;
+      height: 100vh;
+    }
+
+    h2 {
+      margin-top: 50px;
+      text-align: center;
+      /* Center-align the text */
+    }
+
+    /* Add a media query for smaller screens */
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 20px;
+        /* Adjust the font size for smaller screens */
+      }
+    }
+
+
+
+    label {
+      margin-top: 10px;
+      display: block;
+      font-weight: bold;
+    }
+
+    textarea,
+    input {
+      display: block;
+      padding: 10px;
+      margin: 0 auto;
+      margin-top: 30px;
+      font-family: Georgia, sans-serif !important;
+      width: 79%;
+      border-radius: 5px;
+      background-color: #f3e5f5;
+      border: 1px solid #CC99FF;
+    }
+
+
+
+    #response {
+      font-family: Georgia, sans-serif !important;
+      margin-top: 5px;
+      font-size: 10px;
+      display: none;
+      color: green;
+    }
+
+
+    .buttonClass {
+      display: block;
+      margin: auto;
+      margin-top: 30px;
+      font-size: 17px;
+      font-family: Arial;
+      width: 50%;
+      height: 50px;
+      border-width: 1px;
+      color: #fff;
+      border-color: #c584f3;
+      font-weight: bold;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      box-shadow: 3px 4px 0px 0px #313131;
+      text-shadow: 0px 1px 0px #9752cc;
+      background-image: linear-gradient(to right, #8000FF, #DE00FF);
+    }
+
+    .buttonClass:hover {
+      background-color: #bc80ea;
+    }
+  </style>
+
+
+
+  <nav>
+    <div class="logo">
+      <img src="images/icon.png" alt="Logo">
+    </div>
+
+    <input type="checkbox" id="click" />
+    <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="posts/mnemonics/index.html">Mnemonics</a></li>
+      <li><a href="posts/howToMemorize/index.html">Posts</a></li>
+      <li><a class="active" href="about.html">Feedback</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</head>
+
+<body>
+  <!-- Wrap your content in a container -->
+  <div class="container">
+    <h2>Share Your Feedback with Us</h2>
+    <input id="name" type="text" placeholder="Your Name">
+    <input id="email" type="email" placeholder="Your Email or Telegram ID">
+    <textarea id="text" name="ques" rows="6" cols="40" placeholder="Your text"></textarea>
+
+    <button id="myBtn" class="buttonClass" type="submit">Send</button>
+  </div>
+</body>
+
+
+<script>
+  //To expand textbox with text
+  var tx = document.getElementsByTagName('textarea');
+  for (var i = 0; i < tx.length; i++) {
+    tx[i].setAttribute('style', 'height:' + (tx[i].scrollHeight) + 'px;overflow-y:hidden;');
+    tx[i].addEventListener("input", OnInput, false);
+    tx[i].addEventListener("focus", OnFocus, false);
+    tx[i].addEventListener("blur", OnBlur, false);
+  }
+
+  function OnInput(e) {
+    this.style.height = 'auto';
+    this.style.height = (this.scrollHeight) + 'px';
+  }
+
+  function OnFocus(e) {
+    this.style.height = 'auto';
+    this.style.height = (this.scrollHeight) + 'px';
+  }
+
+  // Adjust textarea size on blur (when keyboard closes)
+  function OnBlur(e) {
+    this.style.height = 'auto';
+    this.style.height = (this.scrollHeight) + 'px';
+  }
+
+
+
+  document.getElementById("myBtn").addEventListener("click", function (e) {
+    e.preventDefault();
+
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var feedback = document.getElementById("text").value;
+
+    //check feedback is empty
+    if (feedback.trim() === "") {
+      alert("Please enter your feedback before sending.");
+      return; // Stop further execution
+    }
+    var msg = "<u>Name</u>: " + name + "\n<u>Contact</u>: " + email + "\n\n" + feedback;
+    //  msg = msg.replace(/\n/g, '%0A');
+    var encodedMsg = encodeURIComponent(msg);
+    // console.log(encodedMsg);
+
+    var token = "6611084865:AAFE-6B0m5doRvPK9XcIvvjE6rxCAnjUIgA";
+
+    var chatid = "-1001881459697";
+
+    const url = "https://api.telegram.org/bot" + token + "/sendMessage?text=" + encodedMsg + "&chat_id=" + chatid + "&parse_mode=html";
+
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+    xhr.send();
+    xhr.onload = function () {
+      const resultJSON = JSON.parse(this.responseText);
+      if (resultJSON.ok) {
+        alert("Message sent successfully.");
+        // Clear input fields
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("text").value = "";
+      } else if (resultJSON.description) {
+        alert(resultJSON.description);
+      } else {
+        alert("none");
+      }
+      console.log(resultJSON)
+      console.log(url)
+    }
+  });
+</script>
