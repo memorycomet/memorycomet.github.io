@@ -1,0 +1,26 @@
+{
+    "questions": [
+      {
+        "question": "How are you?",
+        "options": [
+          "fine",
+          "good",
+          "Happy",
+          "Amazed"
+        ],
+        "correctAnswer": "Amazed",
+        "explanation": "Hello dev"
+      },
+      {
+        "question": "my question?",
+        "options": [
+          "opt1",
+          "opt2",
+          "opt3",
+          "opt4"
+        ],
+        "correctAnswer": "opt4",
+        "explanation": "explanation"
+      }
+    ]
+  }

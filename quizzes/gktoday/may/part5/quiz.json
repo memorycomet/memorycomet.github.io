@@ -1,0 +1,364 @@
+{
+    "questions": [
+        {
+            "question": "201.Which state launched the \u2018Patch Reporting App\u2019 to make the roads in state free of pot holes?",
+            "options": [
+                "Uttarakhand",
+                "Assam",
+                "Gujarat",
+                "Bihar"
+            ],
+            "correctAnswer": "Uttarakhand"
+        },
+        {
+            "question": "202.Open Network for Digital Commerce (ONDC) is an interoperable network based on the whichprotocol?",
+            "options": [
+                "BeckN",
+                "XML",
+                "Graph QL",
+                "SOAP"
+            ],
+            "correctAnswer": "BeckN"
+        },
+        {
+            "question": "203.Which country has been recently hit by \u2018African Plume Heatwave\u2019?",
+            "options": [
+                "UK",
+                "USA",
+                "Australia",
+                "Brazil"
+            ],
+            "correctAnswer": "UK"
+        },
+        {
+            "question": "204.Dal Lake, which was seen in the news, is located in which state\/UT?",
+            "options": [
+                "Assam",
+                "Jammu and Kashmir",
+                "Karnataka",
+                "Uttarakhand"
+            ],
+            "correctAnswer": "Jammu and Kashmir"
+        },
+        {
+            "question": "205.Where is the \u2018Hiroshima Peace Memorial Museum\u2019 located?",
+            "options": [
+                "USA",
+                "Japan",
+                "China",
+                "Russia"
+            ],
+            "correctAnswer": "Japan"
+        },
+        {
+            "question": "206.Bakhmut, which was seen in the news, is located in which country?",
+            "options": [
+                "Russia",
+                "Ukraine",
+                "France",
+                "Germany"
+            ],
+            "correctAnswer": "Ukraine"
+        },
+        {
+            "question": "207.Where is the \u2018Rajaji Tiger Reserve\u2019 located in India?",
+            "options": [
+                "Gujarat",
+                "Uttarakhand",
+                "Madhya Pradesh",
+                "Maharashtra"
+            ],
+            "correctAnswer": "Uttarakhand"
+        },
+        {
+            "question": "209.Who is the new Deputy Chief Minister of Karnataka?",
+            "options": [
+                "DK Shivakumar",
+                "Siddaramaiah",
+                "Thawar Chand Gehlot &#160; &#160;",
+                "Basavaraj Horatti"
+            ],
+            "correctAnswer": "DK Shivakumar"
+        },
+        {
+            "question": "210.\u2018Sendai Framework\u2019, which was seen in the news, is associated with which field?",
+            "options": [
+                "Climate Change",
+                "Disaster Risk",
+                "Artificial Intelligence",
+                "Finance"
+            ],
+            "correctAnswer": "Disaster Risk"
+        },
+        {
+            "question": "211.The US signed a defence cooperation agreement with which country?",
+            "options": [
+                "Indonesia",
+                "Papua New Guinea",
+                "Australia",
+                "Singapore"
+            ],
+            "correctAnswer": "Papua New Guinea"
+        },
+        {
+            "question": "212.Which country\u2019s researchers have developed e-skin that can help amputees experience touch?",
+            "options": [
+                "India",
+                "USA",
+                "Australia",
+                "Israel"
+            ],
+            "correctAnswer": "USA"
+        },
+        {
+            "question": "214.What is the name of the central programme launched to promote artificial intelligence in Indiaand beyond?",
+            "options": [
+                "BharatAI",
+                "INDIAai",
+                "BHIMai",
+                "VIKASai"
+            ],
+            "correctAnswer": "INDIAai"
+        },
+        {
+            "question": "215.Which Indian city is placed among the top three data centre markets in Asia-Pacific region?",
+            "options": [
+                "Mumbai",
+                "Chennai",
+                "New Delhi",
+                "Bengaluru"
+            ],
+            "correctAnswer": "Mumbai"
+        },
+        {
+            "question": "216.Machilipatnam port project was launched recently by which state?",
+            "options": [
+                "Andhra Pradesh",
+                "Tamil Nadu",
+                "Kerala",
+                "Odisha"
+            ],
+            "correctAnswer": "Andhra Pradesh"
+        },
+        {
+            "question": "217.Which state\/UT launched the Mukhyamantri Teerthdarshan Yojana?",
+            "options": [
+                "New Delhi",
+                "Madhya Pradesh",
+                "Gujarat",
+                "Uttarakhand"
+            ],
+            "correctAnswer": "Madhya Pradesh"
+        },
+        {
+            "question": "218.Which institution released the \u2018Atlas of Mortality and Economic Losses from Weather, Climateand Water-related hazards\u2019?",
+            "options": [
+                "UNEP",
+                "WMO",
+                "WTO",
+                "World Bank"
+            ],
+            "correctAnswer": "WMO"
+        },
+        {
+            "question": "219.Which institution released the report titled \u201cThriving: Making Cities Green, Resilient, andInclusive in a Changing Climate\u201d?",
+            "options": [
+                "WMO",
+                "WTO",
+                "World Bank",
+                "UNEP"
+            ],
+            "correctAnswer": "World Bank"
+        },
+        {
+            "question": "220.Which country announced the \u201812-point development plan for the Pacific Island nations\u2019?",
+            "options": [
+                "China",
+                "Bangladesh",
+                "India",
+                "Myanmar"
+            ],
+            "correctAnswer": "India"
+        },
+        {
+            "question": "221.Colorado River flows through which country?",
+            "options": [
+                "Argentina",
+                "USA",
+                "France",
+                "Russia"
+            ],
+            "correctAnswer": "USA"
+        },
+        {
+            "question": "223.Which institution is developing \u2018Guidelines on Admissions and Quota for Disabled People\u2019?",
+            "options": [
+                "NMC",
+                "AIIMS",
+                "NMA",
+                "IMA"
+            ],
+            "correctAnswer": "NMC"
+        },
+        {
+            "question": "224.INDUS-X is a joint initiative of India and which country?",
+            "options": [
+                "USA",
+                "UK",
+                "France",
+                "Italy"
+            ],
+            "correctAnswer": "USA"
+        },
+        {
+            "question": "225.\u2018UDAN 5.1\u2019 scheme was launched by which Union Ministry?",
+            "options": [
+                "Ministry of Civil Aviation",
+                "Ministry of MSME",
+                "Ministry of Defence",
+                "Ministry of Commerce and Industry"
+            ],
+            "correctAnswer": "Ministry of Civil Aviation"
+        },
+        {
+            "question": "226.\u2018Transport Outlook 2023\u2019 was released by which institution?",
+            "options": [
+                "IMF",
+                "ITF",
+                "WEF",
+                "World Bank"
+            ],
+            "correctAnswer": "ITF"
+        },
+        {
+            "question": "227. ‘Orbitofrontal Cortex’ is an area in which part of the body?",
+            "options": [
+                "Heart",
+                "Brain",
+                "Muscle",
+                "Liver"
+            ],
+            "correctAnswer": "Brain"
+        },
+        {
+            "question": "228.Mangalore Refinery and Petrochemicals Ltd (MRPL) into Hindustan Petroleum Corp Ltd(HPCL) are the subsidiaries of which organisation?",
+            "options": [
+                "GAIL",
+                "ONGC",
+                "REC",
+                "BHEL"
+            ],
+            "correctAnswer": "ONGC"
+        },
+        {
+            "question": "229.Where is the Global Alliance for National Human Rights Institutions (GANHRI) headquartered?",
+            "options": [
+                "Switzerland",
+                "Moscow",
+                "Paris",
+                "New York"
+            ],
+            "correctAnswer": "Switzerland"
+        },
+        {
+            "question": "230.Which city hosted the first Urban Climate Film Festival in India?",
+            "options": [
+                "Pune",
+                "New Delhi",
+                "Mumbai",
+                "Mysuru"
+            ],
+            "correctAnswer": "New Delhi"
+        },
+        {
+            "question": "231.Which typhoon crossed the United States territory of Guam recently?",
+            "options": [
+                "Mawar",
+                "Mino",
+                "Mahi",
+                "Myan"
+            ],
+            "correctAnswer": "Mawar"
+        },
+        {
+            "question": "232.\u2018Gerald R. Ford\u2019 the largest aircraft carrier in the world, is located in which country?",
+            "options": [
+                "USA",
+                "Russia",
+                "France",
+                "Germany"
+            ],
+            "correctAnswer": "USA"
+        },
+        {
+            "question": "233.\u2018Hemidactylus pakka malaiensis\u2019 is a newly discovered species belonging to?",
+            "options": [
+                "Turtle",
+                "Gecko",
+                "Spider",
+                "Snake"
+            ],
+            "correctAnswer": "Gecko"
+        },
+        {
+            "question": "234.India signed a migration pact with which country recently?",
+            "options": [
+                "Australia",
+                "UK",
+                "Singapore",
+                "Malaysia"
+            ],
+            "correctAnswer": "Australia"
+        },
+        {
+            "question": "235.Carlos Alcaraz, who replaced Novak Djokovic at the No. 1 spot, is a tennis player from whichcountry?",
+            "options": [
+                "Spain",
+                "Serbia",
+                "Russia",
+                "France"
+            ],
+            "correctAnswer": "Spain"
+        },
+        {
+            "question": "237.Which country recently launched its home-grown space rocket \u2018Nuri\u2019?",
+            "options": [
+                "Russia",
+                "South Korea",
+                "Israel",
+                "UAE"
+            ],
+            "correctAnswer": "South Korea"
+        },
+        {
+            "question": "238.Tina Turner, which was seen in the news, was associated with which profession?",
+            "options": [
+                "Author",
+                "Singer",
+                "Politician",
+                "Sports person"
+            ],
+            "correctAnswer": "Singer"
+        },
+        {
+            "question": "239.Special Protection Group (SPG) is the force responsible for the security of which personality?",
+            "options": [
+                "President",
+                "Prime Minister",
+                "Chief Justice of India",
+                "Vice President"
+            ],
+            "correctAnswer": "Prime Minister"
+        },
+        {
+            "question": "240.Volt Typhoon is a hacking group backed by which country?",
+            "options": [
+                "USA",
+                "China",
+                "Russia",
+                "Israel"
+            ],
+            "correctAnswer": "China"
+        }
+    ]
+}
