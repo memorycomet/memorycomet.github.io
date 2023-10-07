@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Number Game</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+        	margin-top: 300px; 
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #222831;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        p {
+            color: #CC99FF;
+        }
+
+        #wordDisplay {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        label, button {
+            background-color: #892CDC;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        input[type="text"] {
+            background-color: #FFFFFF;
+            color: #000000;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        /* Adjust label width */
+        label {
+            display: inline-block;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        #result {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            #container {
+                padding: 10px;
+            }
+            #wordDisplay {
+                font-size: 18px;
+            }
+        }
+
+        /* Highlight class for letters */
+        .highlight {
+            color: #BC6FF1;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Alphabet Number Game</h1>
+        <p>Guess the alphabet numbers for each letter in the word (1-26, separated by spaces):</p>
+        <div id="wordDisplay"></div>
+        <form id="guessForm">
+            <!-- Add 'autocomplete' attribute to turn off auto-suggestions -->
+            <input type="text" id="guess" required autocomplete="off">
+            <button type="submit">Submit</button>
+        </form>
+        <button id="nextWordButton">Next Word</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        // Function to fetch a random word from an API
+        async function getRandomWord() {
+            try {
+                const response = await fetch("https://random-word-api.herokuapp.com/word?number=1");
+                const data = await response.json();
+                return data[0].toUpperCase(); // Convert the word to uppercase
+            } catch (error) {
+                console.error("Error fetching random word:", error);
+                return "ERROR"; // Default to "ERROR" if there's an issue with the API
+            }
+        }
+
+        let randomWord = "";
+
+        function resetGame() {
+            // Generate a new random word
+            getRandomWord().then(newRandomWord => {
+                randomWord = newRandomWord;
+                // Display the new random word with spaces between each letter
+                const wordDisplay = document.getElementById("wordDisplay");
+                wordDisplay.innerHTML = "";
+                const wordArray = randomWord.split('');
+                wordArray.forEach(function (letter) {
+                    const letterSpan = document.createElement('span');
+                    letterSpan.textContent = letter + ' '; // Add a space between letters
+                    wordDisplay.appendChild(letterSpan);
+                });
+
+                // Clear input field and result message
+                const guessInput = document.getElementById("guess");
+                guessInput.value = "";
+                const result = document.getElementById("result");
+                result.textContent = "";
+
+                // Remove highlight from letters
+                for (let i = 0; i < wordArray.length; i++) {
+                    const letterSpan = wordDisplay.children[i];
+                    letterSpan.classList.remove('highlight');
+                }
+            });
+        }
+
+        resetGame(); // Initialize the game with a random word
+
+        const guessInput = document.getElementById("guess");
+        const result = document.getElementById("result");
+        const nextWordButton = document.getElementById("nextWordButton");
+
+        guessInput.addEventListener("input", function () {
+            const userGuess = guessInput.value.trim().split(" ");
+            for (let i = 0; i < randomWord.length; i++) {
+                const letterSpan = wordDisplay.children[i];
+                if (i < userGuess.length) {
+                    letterSpan.classList.add('highlight');
+                } else {
+                    letterSpan.classList.remove('highlight');
+                }
+            }
+        });
+
+        const guessForm = document.getElementById("guessForm");
+        guessForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const userGuess = guessInput.value.trim();
+            const userGuessArray = userGuess.split(" ");
+
+            if (userGuessArray.length === randomWord.length) {
+                let isCorrect = true;
+                let incorrectLetters = [];
+                for (let i = 0; i < randomWord.length; i++) {
+                    const correctNumber = randomWord[i].charCodeAt(0) - 64; // Convert letter to alphabet number (A=1, B=2, ...)
+                    if (parseInt(userGuessArray[i]) !== correctNumber) {
+                        isCorrect = false;
+                        incorrectLetters.push(randomWord[i]);
+                    }
+                }
+
+                if (isCorrect) {
+                    result.textContent = "Congratulations! You guessed correctly!";
+                } else {
+                    result.textContent = `Sorry, your guess is incorrect. Incorrect letters: ${incorrectLetters.join(' ')}`;
+                }
+            } else {
+                result.textContent = "Please enter exactly one alphabet number for each letter.";
+            }
+        });
+
+        nextWordButton.addEventListener("click", function () {
+            resetGame(); // Generate a new random word and reset the game
+        });
+    </script>
+</body>
+</html>
