@@ -174,7 +174,7 @@ function restartGame() {
   document.getElementById("skip_btn").disabled = false;
     totalSeconds = 0; // Reset the total seconds
    timerVariable = null; // Set timerVariable to null  
-    document.getElementById("count_up_timer").innerHTML = "00:10"; // Reset the timer display
+    document.getElementById("count_up_timer").innerHTML = "02:00"; // Reset the timer display
    document.getElementById("crt_tbody").innerHTML = ""; //Clear correct table 
    document.getElementById("wrg_tbody").innerHTML = ""; //Clear incorrect table 
 
