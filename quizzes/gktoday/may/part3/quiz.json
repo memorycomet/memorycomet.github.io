@@ -1,0 +1,484 @@
+{
+    "questions": [
+        {
+            "question": "101.What is the satellite which would be launched in partnership by Surrey Satellite Technology Ltd(SSTL) and Oxford Space Systems (OSS)?",
+            "options": [
+                "CarbSar",
+                "Cryosat",
+                "Spacesat",
+                "UKSat"
+            ],
+            "correctAnswer": "CarbSar"
+        },
+        {
+            "question": "102.\u2018Cryosat\u2019 is a programme associated with which space agency?",
+            "options": [
+                "NASA",
+                "ESA",
+                "ISRO",
+                "JAXA"
+            ],
+            "correctAnswer": "ESA"
+        },
+        {
+            "question": "104.Which is the first state to provide digital health cards for children?",
+            "options": [
+                "Uttar Pradesh",
+                "Assam",
+                "West Bengal",
+                "Rajasthan"
+            ],
+            "correctAnswer": "Uttar Pradesh"
+        },
+        {
+            "question": "105.Galapagos Island is a UNESCO world nature heritage site situated in which country?",
+            "options": [
+                "South Africa",
+                "Ecuador",
+                "Sri Lanka",
+                "Indonesia"
+            ],
+            "correctAnswer": "Ecuador"
+        },
+        {
+            "question": "106.\u2018Kremlin\u2019 is used to refer the government of which country?",
+            "options": [
+                "Ukraine",
+                "Russia",
+                "Israel",
+                "Iran"
+            ],
+            "correctAnswer": "Russia"
+        },
+        {
+            "question": "107.Which institution is the regulator of insurance companies?",
+            "options": [
+                "RBI",
+                "IRDAI",
+                "PFRDA",
+                "SEBI"
+            ],
+            "correctAnswer": "IRDAI"
+        },
+        {
+            "question": "108. ‘Saurona triangular and Saurona aurigera’, which were discovered recently, belong to which species?",
+            "options": [
+                "Snake",
+                "Butterfly",
+                "Spider",
+                "Gecko"
+            ],
+            "correctAnswer": "Butterfly"
+        },
+        {
+            "question": "109.\u2018Kh-47 Kinzhal\u2019 is the hypersonic missile unveiled by which country?",
+            "options": [
+                "Israel",
+                "UAE",
+                "Russia",
+                "Ukraine"
+            ],
+            "correctAnswer": "Russia"
+        },
+        {
+            "question": "110.Who is the author of the book titled \u2018Cyber Encounters\u2019?",
+            "options": [
+                "Ashok Kumar",
+                "Arun Kumar",
+                "Alok Kumar",
+                "Allwyn Kumar"
+            ],
+            "correctAnswer": "Ashok Kumar"
+        },
+        {
+            "question": "111.Which Chief Minister conferred with the \u2018Bharat Ratna Dr Ambedkar Award\u2019 of BuddhanjaliResearch Foundation?",
+            "options": [
+                "Yogi Adityanath",
+                "Naveen Patnaik",
+                "Pinarayi Vijayan",
+                "M K Stalin"
+            ],
+            "correctAnswer": "Yogi Adityanath"
+        },
+        {
+            "question": "112.Which country launched the \u2018Naykap Gokab\u2019 platform?",
+            "options": [
+                "Nepal",
+                "Bhutan",
+                "Myanmar",
+                "Bangladesh"
+            ],
+            "correctAnswer": "Bhutan"
+        },
+        {
+            "question": "113.Centre for Innovation Incubation Research and Entrepreneurship (C-i2 RE) has beeninaugurated in which state\/UT?",
+            "options": [
+                "Tamil Nadu",
+                "Telangana",
+                "Gujarat",
+                "Kerala"
+            ],
+            "correctAnswer": "Telangana"
+        },
+        {
+            "question": "114.Which institution released a report titled \u2018Race to Net Zero\u2019?",
+            "options": [
+                "UNEP",
+                "UNFCCC",
+                "UN ESCAP",
+                "WEF"
+            ],
+            "correctAnswer": "UN ESCAP"
+        },
+        {
+            "question": "115.Which state\/UT launched the \u2018Jaganannaku Chebudam programme\u2019?",
+            "options": [
+                "Andhra Pradesh",
+                "West Bengal",
+                "Kerala",
+                "Odisha"
+            ],
+            "correctAnswer": "Andhra Pradesh"
+        },
+        {
+            "question": "116.Cyber Surakshit Bharat is the initiative of which institution\/Union Ministry?",
+            "options": [
+                "NITI Aayog",
+                "NASSCOM",
+                "Ministry of Electronics and IT",
+                "Ministry of Science and Technology"
+            ],
+            "correctAnswer": "Ministry of Electronics and IT"
+        },
+        {
+            "question": "117.Which country imposed the \u2018Title 42\u2019 order?",
+            "options": [
+                "Russia",
+                "USA",
+                "Ukraine",
+                "Italy"
+            ],
+            "correctAnswer": "USA"
+        },
+        {
+            "question": "118.Which institution released the \u2018Regional Economic Outlook: Middle East and Central Asia\u2019?",
+            "options": [
+                "World Bank",
+                "IMF",
+                "WEF",
+                "ADB"
+            ],
+            "correctAnswer": "IMF"
+        },
+        {
+            "question": "119.\u2018Science Media Communication Cell (SMCC)\u2019 is associated with which Union Ministry?",
+            "options": [
+                "Ministry of Communication",
+                "Ministry of Science and Technology",
+                "Ministry of Information and Broadcasting",
+                "Ministry of External Affairs"
+            ],
+            "correctAnswer": "Ministry of Science and Technology"
+        },
+        {
+            "question": "120.\u2018Bandhavgarh Tiger Reserve (BTR)\u2019 is situated in which state\/UT?",
+            "options": [
+                "Gujarat",
+                "Rajasthan",
+                "Madhya Pradesh",
+                "West Bengal"
+            ],
+            "correctAnswer": "Madhya Pradesh"
+        },
+        {
+            "question": "121.Which space agency has developed the \u2018Aeolus Satellite\u2019?",
+            "options": [
+                "JAXA",
+                "ISRO",
+                "NASA",
+                "ESA"
+            ],
+            "correctAnswer": "ESA"
+        },
+        {
+            "question": "122.Which company has launched \u2018Watsonx\u2019 AI and data platform?",
+            "options": [
+                "IBM",
+                "Microsoft",
+                "Google",
+                "Apple"
+            ],
+            "correctAnswer": "IBM"
+        },
+        {
+            "question": "123.India Post and Confederation of All India Traders (CAIT) partnered to operationalise whichportal?",
+            "options": [
+                "Craft India",
+                "Bharat EMart",
+                "India Mart",
+                "Bharat Store"
+            ],
+            "correctAnswer": "Bharat EMart"
+        },
+        {
+            "question": "124.\u2018Fakhar Zaman\u2019 who was named as the \u2018ICC Men's Player of the Month\u2019, is from which country?",
+            "options": [
+                "India",
+                "Pakistan",
+                "Bangladesh",
+                "UAE"
+            ],
+            "correctAnswer": "Pakistan"
+        },
+        {
+            "question": "125.Which country celebrates Victory Day to mark its victory over Nazi Germany during the SecondWorld War?",
+            "options": [
+                "France",
+                "Russia",
+                "USA",
+                "China"
+            ],
+            "correctAnswer": "Russia"
+        },
+        {
+            "question": "126.\u2018Seventeen-Point Agreement\u2019 is associated with which country?",
+            "options": [
+                "Japan",
+                "Myanmar",
+                "Tibet",
+                "Nepal"
+            ],
+            "correctAnswer": "Tibet"
+        },
+        {
+            "question": "127.Jama Masjid, India\u2019s largest mosque, is situated in which state\/UT?",
+            "options": [
+                "Punjab",
+                "New Delhi",
+                "Uttarakhand",
+                "Kerala"
+            ],
+            "correctAnswer": "New Delhi"
+        },
+        {
+            "question": "128.Siddheswara Temple, which was seen in the news, is located in which state\/UT?",
+            "options": [
+                "Andhra Pradesh",
+                "Kerala",
+                "West Bengal",
+                "Assam"
+            ],
+            "correctAnswer": "Andhra Pradesh"
+        },
+        {
+            "question": "129.Sathyabhama Das Biju, who was seen in the news, is associated with which profession?",
+            "options": [
+                "Sports Person",
+                "Biologist",
+                "Politician",
+                "Writer"
+            ],
+            "correctAnswer": "Biologist"
+        },
+        {
+            "question": "130.The 35th Indo-Thai CORPAT was organised in which region?",
+            "options": [
+                "Andaman Sea",
+                "Indian Ocean",
+                "South China Sea",
+                "Pacific Ocean"
+            ],
+            "correctAnswer": "Andaman Sea"
+        },
+        {
+            "question": "131.Which institution introduced the \u2018Star Labelling Program\u2019?",
+            "options": [
+                "NITI Aayog",
+                "Bureau of Energy Efficiency",
+                "BARC",
+                "BHEL"
+            ],
+            "correctAnswer": "Bureau of Energy Efficiency"
+        },
+        {
+            "question": "132.\u2018Kaziranga Elevated Road project\u2019 is being constructed in which state\/UT?",
+            "options": [
+                "West Bengal",
+                "Assam",
+                "Karnataka",
+                "Odisha"
+            ],
+            "correctAnswer": "Assam "
+        },
+        {
+            "question": "133.Fossil remains of a giant pilosaur was discovered in which country recently?",
+            "options": [
+                "India",
+                "China",
+                "England",
+                "Japan"
+            ],
+            "correctAnswer": "England"
+        },
+        {
+            "question": "134.The latest human genome, called \u2018Pangenome\u2019, is made using data from how many people?",
+            "options": [
+                "4",
+                "7",
+                "47",
+                "74"
+            ],
+            "correctAnswer": "47"
+        },
+        {
+            "question": "135.\u2018OFDA 4000\u2019 is a state-of-art equipment, which has been procured by which state\/UT?",
+            "options": [
+                "Arunachal Pradesh",
+                "Jammu and Kashmir",
+                "Rajasthan",
+                "Gujarat"
+            ],
+            "correctAnswer": "Jammu and Kashmir"
+        },
+        {
+            "question": "136.Which country is the host of the 6th Indian Ocean Conference (IOC)?",
+            "options": [
+                "India",
+                "Sri Lanka",
+                "Bangladesh",
+                "Myanmar"
+            ],
+            "correctAnswer": "Bangladesh"
+        },
+        {
+            "question": "138.As per the \u2018Global Oil Infrastructure Tracker\u2019, what is the rank of India in the pipelines underconstruction category?",
+            "options": [
+                "Second",
+                "Seventh",
+                "Twelfth",
+                "Fifteenth"
+            ],
+            "correctAnswer": "Second"
+        },
+        {
+            "question": "139.Which institution released the \u2018Global Report on Internal Displacement 2023 (GRID-2023)\u2019?",
+            "options": [
+                "IDMC",
+                "UNICEF",
+                "World Bank",
+                "WEF"
+            ],
+            "correctAnswer": "IDMC"
+        },
+        {
+            "question": "140.Scientists have recently initiated a field trial to vaccinate which animals against \u2018Chlamydia\u2019diseases?",
+            "options": [
+                "Panda",
+                "Koala",
+                "Wolf",
+                "Lions"
+            ],
+            "correctAnswer": "Koala"
+        },
+        {
+            "question": "141.Which country has recently approved the \u2018Isaac River coal mine project\u2019?",
+            "options": [
+                "USA",
+                "Australia",
+                "Russia",
+                "India"
+            ],
+            "correctAnswer": "Australia"
+        },
+        {
+            "question": "142.\u2018E-retrofitment\u2019, which was seen in the news, is associated with which field?",
+            "options": [
+                "Culture",
+                "Electric Mobility",
+                "Finance",
+                "Sports"
+            ],
+            "correctAnswer": "Electric Mobility"
+        },
+        {
+            "question": "143.Which cyclone has hit Myanmar and is one of the strongest storms to hit the region thiscentury?",
+            "options": [
+                "Cyclone Mocha",
+                "Cyclone Myan",
+                "Cyclone Mira",
+                "Cyclone Moto"
+            ],
+            "correctAnswer": "Cyclone Mocha"
+        },
+        {
+            "question": "144.Which institution launched the \u2018100 Days 100 Pays\u2019 campaign?",
+            "options": [
+                "RBI",
+                "NPCI",
+                "SEBI",
+                "SBI"
+            ],
+            "correctAnswer": "RBI"
+        },
+        {
+            "question": "145.\u2018AT2021lwx\u2019, which was seen in the news, is associated with which field?",
+            "options": [
+                "Computer Hardware",
+                "Astronomy",
+                "Finance",
+                "Sports"
+            ],
+            "correctAnswer": "Astronomy"
+        },
+        {
+            "question": "146.Which country has been hit by a large outbreak of the Moroccan locust in wheat plants?",
+            "options": [
+                "India",
+                "Pakistan",
+                "Afghanistan",
+                "Myanmar"
+            ],
+            "correctAnswer": "Afghanistan"
+        },
+        {
+            "question": "147.\u2018White Knight Corps\u2019 is headquartered in which state\/UT?",
+            "options": [
+                "Punjab",
+                "Sikkim",
+                "Jammu and Kashmir",
+                "Rajasthan"
+            ],
+            "correctAnswer": "Jammu and Kashmir"
+        },
+        {
+            "question": "148.Which country has set up the \u2018Palli Karma Sahayak Foundation (PKSF)\u2019?",
+            "options": [
+                "India",
+                "Bangladesh",
+                "Myanmar",
+                "Nepal"
+            ],
+            "correctAnswer": "Bangladesh"
+        },
+        {
+            "question": "149.Dr Jayant V. Narlikar, who was seen in the news recently, is associated with which profession?",
+            "options": [
+                "Historian",
+                "Astronomer",
+                "Scientist",
+                "Virologist"
+            ],
+            "correctAnswer": "Astronomer"
+        },
+        {
+            "question": "150.The World Bank has proposed a funding of 165 million USD for \u2018KERA\u2019 Program of which state?",
+            "options": [
+                "Karnataka",
+                "Kerala",
+                "Andhra Pradesh",
+                "Rajasthan"
+            ],
+            "correctAnswer": "Kerala"
+        }
+    ]
+}

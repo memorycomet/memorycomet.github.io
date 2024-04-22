@@ -1,0 +1,504 @@
+{
+    "questions": [
+        {
+            "question": "1.Which institution prepares the National Health Account (NHA) estimates for India?",
+            "options": [
+                "WHO",
+                "NITI Aayog",
+                "AIIMS",
+                "NHSRC"
+            ],
+            "correctAnswer": "NHSRC"
+        },
+        {
+            "question": "2.'Big Catch-up' Initiative is launched by which organization?",
+            "options": [
+                "IMF",
+                "FAO",
+                "WHO",
+                "RBI"
+            ],
+            "correctAnswer": "WHO"
+        },
+        {
+            "question": "3.How many Zero Shadow Day occurs in a year for places between Tropic of Cancer and the Tropicof Capricorn?",
+            "options": [
+                "One",
+                "Two",
+                "Three",
+                "Four"
+            ],
+            "correctAnswer": "Two"
+        },
+        {
+            "question": "4.As per the recently released NHA Estimates for India 2019-20, which is the share of Out-of-PocketExpenditure (OOPE) in total Health Expenditure (THE)?",
+            "options": [
+                "47.1%",
+                "59.2%",
+                "60.4%",
+                "90.1%"
+            ],
+            "correctAnswer": "47.1%"
+        },
+        {
+            "question": "5.Spheroidal carbonaceous particle is a component of?",
+            "options": [
+                "Fly Ash",
+                "Saw Dust",
+                "Dry Ice",
+                "Common Salt"
+            ],
+            "correctAnswer": "Fly Ash"
+        },
+        {
+            "question": "6.As per a recent study, trees and crops endemic to which country have higher \u2018Air PollutionTolerance Index\u2019?",
+            "options": [
+                "India",
+                "Brazil",
+                "Chile",
+                "Sri Lanka"
+            ],
+            "correctAnswer": "India"
+        },
+        {
+            "question": "7.Recently, the second deepest blue hole was discovered off the coast of Yucatan Peninsula in whichcountry?",
+            "options": [
+                "USA",
+                "Mexico",
+                "Russia",
+                "UAE"
+            ],
+            "correctAnswer": "Mexico"
+        },
+        {
+            "question": "8.\u2018Piarosoma arunachalensis\u2019, which was recently discovered, belongs to which species?",
+            "options": [
+                "Telangana",
+                "Jharkhand",
+                "Odisha",
+                "West Bengal"
+            ],
+            "correctAnswer": "West Bengal"
+        },
+        {
+            "question": "9. Which state/UT launched the ‘5T School Transformation Programme’?",
+            "options": [
+                "Moth",
+                "Spider",
+                "Turtle",
+                "Snake"
+            ],
+            "correctAnswer": "Moth"
+        },
+        {
+            "question": "10.Which institution released the \u2018Promoting Millets in Diets\u2019 Report?",
+            "options": [
+                "NABARD",
+                "FCI",
+                "NITI Aayog",
+                "FSSAI"
+            ],
+            "correctAnswer": "NITI Aayog"
+        },
+        {
+            "question": "11.Which company has been recently upgraded to the status of Navratna CPSE (in May 2023)?",
+            "options": [
+                "Airports Authority of India",
+                "Rail Vikas Nigam Limited",
+                "Hindustan Copper Limited",
+                "Indian Railway Catering &amp; Tourism Corporation Limited"
+            ],
+            "correctAnswer": "Rail Vikas Nigam Limited"
+        },
+        {
+            "question": "12.Which institution has launched the liquid nano Di-Ammonia Phosphate (DAP) in India?",
+            "options": [
+                "NITI Aayog",
+                "NABARD",
+                "IFFCO",
+                "FCI"
+            ],
+            "correctAnswer": "IFFCO"
+        },
+        {
+            "question": "13.Which term denotes the \u2018extremely luminous and powerful active galactic nucleus\u2019?",
+            "options": [
+                "Ultra- nucleus",
+                "Quasar",
+                "Ignition star",
+                "Power-nucleus"
+            ],
+            "correctAnswer": "Quasar"
+        },
+        {
+            "question": "14. Which city is the host of the ‘United Nations Permanent Forum on Indigenous Issues’?",
+            "options": [
+                "New Delhi",
+                "New York",
+                "Sydney",
+                "London"
+            ],
+            "correctAnswer": "New York"
+        },
+        {
+            "question": "15.As of 2023, what is the interest rate on deposits made under \u2018Mahila Samman Saving CertificateAccount\u2019?",
+            "options": [
+                "6.5 %",
+                "7.5 %",
+                "8.0 %",
+                "8.5 %"
+            ],
+            "correctAnswer": "7.5 %"
+        },
+        {
+            "question": "16.\u2018Legal Debt Ceiling\u2019 is associated with which country?",
+            "options": [
+                "USA",
+                "Australia",
+                "Japan",
+                "Indonesia"
+            ],
+            "correctAnswer": "USA"
+        },
+        {
+            "question": "17.Which country has developed \u2018T-14 Armata battle tank\u2019?",
+            "options": [
+                "USA",
+                "Russia",
+                "France",
+                "Italy"
+            ],
+            "correctAnswer": "Russia"
+        },
+        {
+            "question": "18.Which country is supplying Mi-17 helicopter engines and auxiliary spare parts to Pakistan?",
+            "options": [
+                "China",
+                "Pakistan",
+                "Russia",
+                "Ukraine"
+            ],
+            "correctAnswer": "Ukraine"
+        },
+        {
+            "question": "19. India launched the 'NET Zero' Innovation Virtual Centre with which country?",
+            "options": [
+                "USA",
+                "UK",
+                "Australia",
+                "South Korea"
+            ],
+            "correctAnswer": "UK"
+        },
+        {
+            "question": "20.What percentage of farmers are small farmers in India, as of 2023?",
+            "options": [
+                "65 %",
+                "70 %",
+                "80 %",
+                "85 %"
+            ],
+            "correctAnswer": "85 %"
+        },
+        {
+            "question": "21.From which year, the \u2018IFRS 17\u2019 financial reporting standard became effective?",
+            "options": [
+                "2000",
+                "2010",
+                "2015",
+                "2023"
+            ],
+            "correctAnswer": "2023"
+        },
+        {
+            "question": "22.\u2018Berenice Troglodytica\u2019, which was seen in the news, is located in which country?",
+            "options": [
+                "Egypt",
+                "South Africa",
+                "Sri Lanka",
+                "USA"
+            ],
+            "correctAnswer": "Egypt"
+        },
+        {
+            "question": "23.Scientists have discovered a cave in which state to confirm that three droughts resulted indestruction of Harappa?",
+            "options": [
+                "Madhya Pradesh",
+                "Gujarat",
+                "Assam",
+                "Uttarakhand"
+            ],
+            "correctAnswer": "Uttarakhand"
+        },
+        {
+            "question": "24.Which asteroid produces the annual Geminid meteor shower?",
+            "options": [
+                "Asteroid Phaethon",
+                "Asteroid Ceres",
+                "Asteroid Pallas",
+                "Asteroid Vesta"
+            ],
+            "correctAnswer": "Asteroid Phaethon"
+        },
+        {
+            "question": "25.Anji Bridge, which was seen in the news, is being built in which state\/UT?",
+            "options": [
+                "Jammu and Kashmir",
+                "Arunachal Pradesh",
+                "Punjab",
+                "Sikkim"
+            ],
+            "correctAnswer": "Jammu and Kashmir"
+        },
+        {
+            "question": "26.Which is the most innovative state as per the \u2018National Manufacturing Innovation Survey (NMIS)2021-22\u2019?",
+            "options": [
+                "West Bengal",
+                "Karnataka",
+                "Maharashtra",
+                "Telangana"
+            ],
+            "correctAnswer": "Karnataka"
+        },
+        {
+            "question": "27.Voters Helpline App was introduced by the Election Commission for the seamless enrolment ofthe voters in which state?",
+            "options": [
+                "Assam",
+                "Karnataka",
+                "Kerala",
+                "Goa"
+            ],
+            "correctAnswer": "Karnataka"
+        },
+        {
+            "question": "28.What is the name of Indian Navy\u2019s 3rd indigenous stealth destroyer of the Project 15B class?",
+            "options": [
+                "INS Dhruv",
+                "INS Imphal",
+                "INS Kattabomman",
+                "INS Vikram"
+            ],
+            "correctAnswer": "INS Imphal"
+        },
+        {
+            "question": "29.Majority of Gum Arabic is sourced from Sahel region, which runs through which country?",
+            "options": [
+                "Israel",
+                "Sudan",
+                "South Africa",
+                "Ukraine"
+            ],
+            "correctAnswer": "Sudan"
+        },
+        {
+            "question": "30.Which country organises the annual \u2018Free Land Camp\u2019 for indigenous people?",
+            "options": [
+                "Brazil",
+                "South Africa",
+                "USA",
+                "Australia"
+            ],
+            "correctAnswer": "Brazil"
+        },
+        {
+            "question": "31.\u2018Muthamizh Arignar Dr. Kalaignar Pen Monument\u2019 is to be built in the memory of which leader?",
+            "options": [
+                "C.N Anna Durai",
+                "Periyar E.V.Ramasamy",
+                "M Karunanidhi",
+                "M G Ramachandran"
+            ],
+            "correctAnswer": "M Karunanidhi"
+        },
+        {
+            "question": "32.Which country has recently banned \u2018Dwarf Bull-fighting\u2019?",
+            "options": [
+                "Spain",
+                "USA",
+                "China",
+                "South Korea"
+            ],
+            "correctAnswer": "Spain"
+        },
+        {
+            "question": "33.The \u2018National Conference of National Police Mission (NPM)\u2019 is organised in which state\/UT?",
+            "options": [
+                "New Delhi",
+                "Maharashtra",
+                "Punjab",
+                "Goa"
+            ],
+            "correctAnswer": "New Delhi"
+        },
+        {
+            "question": "34.What is the objective of the \u2018Jagananna Chebudam scheme\u2019?",
+            "options": [
+                "Grievance Redressal",
+                "Scholarship to Students",
+                "Financial Aid to Women",
+                "Financial Aid to Trans-gender people"
+            ],
+            "correctAnswer": "Grievance Redressal"
+        },
+        {
+            "question": "35.Which state\/UT launched the \u2018Ladli Bahna Yojana\u2019?",
+            "options": [
+                "Gujarat",
+                "Madhya Pradesh",
+                "Maharashtra",
+                "Goa"
+            ],
+            "correctAnswer": "Madhya Pradesh"
+        },
+        {
+            "question": "36.Who is the first Indian to complete the Golden Globe Race?",
+            "options": [
+                "Avani Chaturvedi",
+                "Abhilash Tomy",
+                "Bhawana Kanth",
+                "Mohana Singh Jitarwal"
+            ],
+            "correctAnswer": "Abhilash Tomy"
+        },
+        {
+            "question": "37.Abdulla Aboobacker, who was seen in the news recently, plays which sports?",
+            "options": [
+                "Triple Jump",
+                "Javelin Throw",
+                "Swimming",
+                "Chess"
+            ],
+            "correctAnswer": "Triple Jump"
+        },
+        {
+            "question": "37.Abdulla Aboobacker, who was seen in the news recently, plays which sports?",
+            "options": [
+                "Triple Jump",
+                "Javelin Throw",
+                "Swimming",
+                "Chess"
+            ],
+            "correctAnswer": "Triple Jump"
+        },
+        {
+            "question": "39.Which state\/UT launched the \u2018Adarsha Colony initiative\u2019?",
+            "options": [
+                "West Bengal",
+                "Assam",
+                "Odisha",
+                "Jharkhand"
+            ],
+            "correctAnswer": "Odisha"
+        },
+        {
+            "question": "40.Which country adopted the \u2018Basic Plan on Ocean Policy\u2019?",
+            "options": [
+                "USA",
+                "Japan",
+                "Indonesia",
+                "India"
+            ],
+            "correctAnswer": "Japan"
+        },
+        {
+            "question": "41.What is the name of the company owned by a group of individuals who pledge to pay in case thecompany is wound up?",
+            "options": [
+                "Company limited by guarantee",
+                "Private Limited Company",
+                "One Person Company",
+                "Limited Liability Company (LLC)"
+            ],
+            "correctAnswer": "Company limited by guarantee"
+        },
+        {
+            "question": "42.Johnson Space Center's Thermal Vacuum Chamber is located in which country?",
+            "options": [
+                "Russia",
+                "USA",
+                "Australia",
+                "Israel"
+            ],
+            "correctAnswer": "USA"
+        },
+        {
+            "question": "43.Which institution released the \u2018Chief Economists Outlook Report 2023\u2019?",
+            "options": [
+                "IMF",
+                "ADB",
+                "WEF",
+                "AIIB"
+            ],
+            "correctAnswer": "WEF"
+        },
+        {
+            "question": "44.Ocean Census Project is aimed at identifying and recording how many species?",
+            "options": [
+                "1000",
+                "10,000",
+                "100,000",
+                "1,000,000"
+            ],
+            "correctAnswer": "100,000"
+        },
+        {
+            "question": "45.Which is the governing body of the Department of Atomic Energy in India?",
+            "options": [
+                "Atomic Energy Commission of India",
+                "NITI Aayog",
+                "Department of Space",
+                "DRDO"
+            ],
+            "correctAnswer": "Atomic Energy Commission of India"
+        },
+        {
+            "question": "46.\u2018All India Vedic Science Conference\u2019 was inaugurated in which state\/UT?",
+            "options": [
+                "Maharashtra",
+                "New Delhi",
+                "Gujarat",
+                "Assam"
+            ],
+            "correctAnswer": "New Delhi"
+        },
+        {
+            "question": "47.What is the name of world\u2019s first robotic check-in assistant, that was launched by Emirates?",
+            "options": [
+                "Sara",
+                "Kiwi",
+                "Siri",
+                "Rini"
+            ],
+            "correctAnswer": "Sara"
+        },
+        {
+            "question": "48.\u2018Sinthan Festival\u2019 was organised in which state\/UT?",
+            "options": [
+                "Jammu and Kashmir",
+                "Assam",
+                "West Bengal",
+                "Karnataka"
+            ],
+            "correctAnswer": "Jammu and Kashmir"
+        },
+        {
+            "question": "49.Which institution released the \u2018Business Ready (B-READY) project?",
+            "options": [
+                "IMF",
+                "World Bank",
+                "WEF",
+                "ADB"
+            ],
+            "correctAnswer": "World Bank"
+        },
+        {
+            "question": "50.Which country hosted the \u2018ASEAN India Maritime Exercise (AIME-2023)\u2019?",
+            "options": [
+                "India",
+                "Singapore",
+                "Thailand",
+                "Myanmar"
+            ],
+            "correctAnswer": "Singapore"
+        }
+    ]
+}
