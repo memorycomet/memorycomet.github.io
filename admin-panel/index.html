@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/theme.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            /* Dark background color */
+            color: #fff;
+            /* Light text color */
+        }
+
+        .header {
+            background-color: #222;
+            /* Darker header background color */
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 40px 0;
+        }
+
+        .welcome-icon {
+            margin-right: 10px;
+            font-size: 40px;
+            color: #605265;
+            /* Purple color */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .tool-card {
+            background-color: #444;
+            /* Darker card background color */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+            /* Lighter box shadow */
+            transition: background-color 0.2s;
+        }
+
+        .tool-card:hover {
+            background-color: #555;
+            /* Darker background color on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* Enhanced box shadow on hover */
+        }
+
+        .tool-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .tool-link {
+            color: #E894FF;
+            /* Lighter link color */
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .tools {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .tool-card-link {
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+
+        .description-title {
+            color: #ffffff;
+            font-size: 36px;
+            font-weight: 700;
+            margin: 20px;
+            text-shadow: 0 0 10px #f82200, 0 0 0px #ffffff, 0 0 2px #A852FF, 0 0 19px #A852FF;
+        }
+
+        .hero-quote {
+            font-size: 16px;
+            color: #ccc;
+            margin-left: 62px;
+        }
+
+        .superhero-image {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .superhero-image img{
+            width:90%;
+        }
+
+
+        /* Add a media query for smaller screens */
+        @media (max-width: 768px) {
+            .description-title {
+                font-size: 30px;
+                /* Adjust the font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../images/icon.png" alt="Logo">
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a class="active" href="index.html">Admin</a></li>
+            <li><a href="../posts/howToMemorize/index.html">Posts</a></li>
+            <li><a href="../feedback.html">Feedback</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <h1><span class="welcome-icon"><i class="fas fa-meteor"></i></span>
+            Welcome Admin</h1>
+        <p class="hero-quote">Silent Heroes of the Digital Age</p>
+    </div>
+
+    <div class="container">
+        <div class="tools">
+            <a class="tool-card-link" href=" tools/jsongenerator">
+                <div class="tool-card">
+                    <h2 class="tool-title"><i class="fas fa-cogs"></i> Make JSON</h2>
+                    <span class="tool-link">Generate json </span>
+                </div>
+            </a>
+            <a class="tool-card-link" href="tools/dataToQuiz/index.html">
+                <div class="tool-card">
+                    <h2 class="tool-title"><i class="fas fa-cogs"></i> Create Quizzes</h2>
+                    <span class="tool-link">Make Telegram Bot Quiz</span>
+                </div>
+            </a>
+            <a class="tool-card-link" href="#">
+                <div class="tool-card">
+                    <h2 class="tool-title">Tool 3</h2>
+                    <span class="tool-link">Demo Tool 3</span>
+                </div>
+            </a>
+            <!-- Add more tools here -->
+        </div>
+    </div>
+
+    <!-- Add your cute superhero image here -->
+    <div class="superhero-image">
+        <img src="images/superhero.png" alt="Superheroes">
+    </div>
+</body>
+
+</html>
