@@ -91,7 +91,7 @@ function updatePreview(value) {
         var previewDiv = document.getElementById("preview");
         var previewHtml = questions.map((poll, index) => `
     <div class="quiz-question">
-        <h3 style="color:grey">Question ${index + 1}:</h3>
+        <h3 style="color:Gainsboro">Question ${index + 1}:</h3>
         <p class="quiz-text"><strong>${poll.question}</strong></p>
         <ol class="quiz-options">
             ${poll.options.map((option, optionIndex) => `
