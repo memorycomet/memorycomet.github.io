@@ -221,25 +221,3 @@ input[type=radio]:checked {
 --s: .5;
 }
 }
-ul {
-margin: 12px;
-padding: 0;
-list-style: none;
-width: 100%;
-max-width: 320px;
-}
-ul li {
-margin: 16px 0;
-position: relative;
-}
-
-html {
-box-sizing: border-box;
-}
-
-* {
-box-sizing: inherit;
-}
-*:before, *:after {
-box-sizing: inherit;
-}
