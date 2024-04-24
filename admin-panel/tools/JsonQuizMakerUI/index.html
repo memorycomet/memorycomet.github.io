@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <nav>
+        <div class="logo">
+            <img src="../../../images/icon.png" alt="Logo">
+        </div>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="../../../posts/mnemonics/index.html">Mnemonics</a></li>
+            <li><a class="active" href="#">Posts</a></li>
+            <li><a href="../../../feedback.html">Feedback</a></li>
+            <li><a href="../../../about.html">About</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Poll Form</h1>
+        <div id="preview"></div>
+        <table>
+            <tr>
+                <th colspan="2">
+                    <button id="autoques" class="clipboard"
+                        onclick="typeInTextarea('Hello Omega',question)">meco</button>
+                    <button id="autoques2" class="clipboard"
+                        onclick="typeInTextarea(' Hope you are doing great\n',question)">Meco
+                        Greet</button>
+
+                    <button id="autoques3" class="clipboard"
+                        onclick="typeInTextarea('Select the option that can be used as a one-word substitute: \n',question)">1word</button>
+                    <button id="autoques4" class="clipboard"
+                        onclick="typeInTextarea('Memory comet',question)">Join</button>
+
+                </th>
+            </tr>
+
+            <tr>
+                <td>
+                    <form id="my_form">
+                        <span id="quesid">300</span>
+                </td>
+                <td>
+                    <textarea id="question" name="ques" rows="6" cols="30" placeholder="Question"
+                        oninput="quesCount(this);"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span id="optcnt1">100</span>
+                </td>
+                <td>
+
+                    <input type="radio" name="correctOption" value="0">
+                    <input type="text" id="optionA" placeholder="Option A" maxlength="100"
+                        oninput="option(optionA,optcnt1.id)">
+            </tr>
+
+            <tr>
+                <td>
+                    <span id="optcnt2">100</span>
+                </td>
+                <td>
+                    <input type="radio" name="correctOption" value="1">
+                    <input type="text" id="optionB" oninput="option(optionB,optcnt2.id)" placeholder="Option B"
+                        autocomplete="off">
+                </td>
+
+
+            <tr>
+                <td>
+                    <span id="optcnt3">100</span>
+                </td>
+                <td>
+                    <input type="radio" name="correctOption" value="2">
+
+                    <input type="text" id="optionC" oninput="option(optionC,optcnt3.id)" placeholder="Option C"
+                        autocomplete="off">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span id="optcnt4">100</span>
+                </td>
+                <td>
+                    <input type="radio" name="correctOption" value="3">
+
+                    <input type="text" id="optionD" oninput="option(optionD,optcnt4.id)" placeholder="Option D"
+                        autocomplete="off">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span id="charNum">200</span>
+                </td>
+                <td>
+                    <textarea id="explanation" rows="6" cols="30" oninput="countExplaChar(this);"
+                        placeholder="Explanation"></textarea>
+                </td>
+            <tr>
+                <td colspan="3">
+
+                    <button id="myBtn" class="sendbtn" onclick="convertAndSubmit()">✚ Add Question</button>
+                </td>
+                </form>
+            </tr>
+
+
+            <tr>
+                <th colspan="2" style="padding-top:20px;">
+                    <button id="autoExpla" style="margin-right:20px;" class="clipboard"
+                        onclick="typeInTextarea('Explain: \n\nExample: ',explanation)">E&E</button>
+                    <button id="autoExpla" style="margin-right:20px;" class="clipboard"
+                        onclick="typeInTextarea('<b><u>',explanation)">&lt;b&u&gt;</button>
+                    <button id="autoExpla1" style="margin-right:20px;" class="clipboard"
+                        onclick="typeInTextarea('</u></b>',explanation)">&lt;/b&/u&gt;</button>
+                    <button id="autoExpla2" class="clipboard" onclick="typeInTextarea('🏆',explanation)">Trophy</button>
+                </th>
+            </tr>
+        </table>
+
+
+
+        <div id="status"></div>
+
+
+        <!-- Upload JSON File Section -->
+        <button class="btn2" type="button" onclick="uploadQuestions()">Upload Quiz to Telegram</button>
+        
+        
+        
+        <div class="json-btn-container">
+            <button type="button" class="clear-btn" onclick="ClearAll()"><strong>CLEAR ALL ☢</strong></button>
+        </div>
+        
+        <div id="setting_head" onclick="toggleSettings()" >⚙ More Settings <span style="color:#E894FF"><i class="fas fa-chevron-down"></i></span></div>
+    </div>
+        
+        <div id="container-settings">
+            <h2>Accumulated JSON Input:</h2>
+            <textarea id="accumulatedJson" rows="10" cols="50"
+                oninput="updatePreview(JSON.parse(this.value))"></textarea>
+
+            <div class="json-btn-container">
+                <button type="button" onclick="copyAccumulatedJson()">Copy JSON</button>
+                <button type="button" class="clear-btn" onclick="clearAccumulatedJson()">Clear JSON</button>
+                <button type="button" onclick="downloadAccumulatedJson()">Download JSON</button>
+            </div>
+
+
+
+            <!-- New textarea to display accumulated poll details -->
+            <h2>Accumulated Poll Details:</h2>
+            <textarea id="pollDetailsTextarea" rows="10" cols="50"></textarea>
+            <!-- Buttons to copy and clear accumulated poll details -->
+            <div class="json-btn-container">
+                <button type="button" onclick="copyPollDetails()">Copy Details</button>
+                <button type="button" class="clear-btn" onclick="clearPollDetails()">Clear Details</button>
+                <button type="button" onclick="downloadPollDetails()">Download Details</button>
+            </div>
+        </div>
+
+        
+        
+
+
+
+    <script src="script.js"></script>
+    <script src="form.js"></script>
+    <script src="settings.js"></script>
+</body>
+
+</html>
