@@ -293,7 +293,7 @@ async function uploadQuestions() {
         } catch (error) {
             console.error('Error sending questions:', error);
             alert('Error:', error);
-            displayStatus('Error sending questions. Please try again.'); // Display status message
+            displayStatus('Error sending questions:', error'); // Display status message
         }
     }
 }
