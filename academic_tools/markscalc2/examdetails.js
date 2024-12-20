@@ -42,9 +42,9 @@ function updateExamDetails() {
             incorrectMarks = -1.0;
             break;
         case 'other':
-            numQuestions = null;
-            correctMarks = null;
-            incorrectMarks = null;
+            numQuestions = '';
+            correctMarks = '';
+            incorrectMarks = '';
             break;
         default:
      // Reset values when no exam is selected
