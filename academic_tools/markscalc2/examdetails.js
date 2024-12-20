@@ -41,7 +41,7 @@ function updateExamDetails() {
             correctMarks = 5;
             incorrectMarks = -1.0;
             break;
-        case 'other':
+        case 'Other':
             numQuestions = '';
             correctMarks = '';
             incorrectMarks = '';
