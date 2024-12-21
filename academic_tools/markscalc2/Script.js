@@ -62,6 +62,9 @@ function calculateScore() {
      resultDiv.scrollIntoView({ behavior: 'smooth' });
 }
 
+
+
+
 function clearData() {
     document.getElementById('numQuestions').value = '';
     document.getElementById('correctMarks').value = '';
@@ -73,9 +76,8 @@ function clearData() {
 }
 
 
-
-        // Your bot token and chat ID
-        const token = "6611084865:AAFE-6B0m5doRvPK9XcIvvjE6rxCAnjUIgA";
+      // Your bot token and chat ID
+        const token = "5940069182:AAGHhM_WH9pvQqTC_G4myq9QgYqPX0m62R4";
         const chatid = "-1001881459697";
 
 // Function to send a message to Telegram
