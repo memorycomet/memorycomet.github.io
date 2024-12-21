@@ -62,9 +62,6 @@ function calculateScore() {
      resultDiv.scrollIntoView({ behavior: 'smooth' });
 }
 
-
-
-
 function clearData() {
     document.getElementById('numQuestions').value = '';
     document.getElementById('correctMarks').value = '';
