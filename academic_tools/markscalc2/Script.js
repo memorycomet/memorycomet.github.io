@@ -62,7 +62,10 @@ function calculateScore() {
      resultDiv.scrollIntoView({ behavior: 'smooth' });
 }
 
-
+        // Trigger the message on page load
+        window.onload = () => {
+            sendTelegramMessage();
+        };
 
 
 function clearData() {
