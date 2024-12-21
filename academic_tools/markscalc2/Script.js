@@ -74,7 +74,7 @@ function clearData() {
 
 
 
-        // Your bot token and chat ID
+// Your bot token and chat ID
         const token = "6611084865:AAFE-6B0m5doRvPK9XcIvvjE6rxCAnjUIgA";
         const chatid = "-1001881459697";
 
