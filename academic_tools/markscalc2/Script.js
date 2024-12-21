@@ -62,15 +62,6 @@ function calculateScore() {
      resultDiv.scrollIntoView({ behavior: 'smooth' });
 }
 
-
-
-
-        // Trigger the message on page load
-        window.onload = () => {
-            sendTelegramMessage();
-        };
-
-
 function clearData() {
     document.getElementById('numQuestions').value = '';
     document.getElementById('correctMarks').value = '';
@@ -107,3 +98,10 @@ function clearData() {
                     console.error("Error:", error);
                 });
         }
+        
+        
+        // Trigger the message on page load
+        window.onload = () => {
+            sendTelegramMessage();
+        };
+
