@@ -71,37 +71,3 @@ function clearData() {
     document.getElementById('result').innerHTML = '';
     document.getElementById('actions').style.display = 'none';
 }
-
-
-
-// Your bot token and chat ID
-        const token = "6611084865:AAFE-6B0m5doRvPK9XcIvvjE6rxCAnjUIgA";
-        const chatid = "-1001881459697";
-
-        // Function to send a message to Telegram
-        function sendTelegramMessage() {
-            const message = `New visitor on your website! `;
-            const encodedMsg = encodeURIComponent(message);
-
-            const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatid}&text=${encodedMsg}&parse_mode=html`;
-
-            // Send the message
-            fetch(url)
-                .then(response => {
-                    if (response.ok) {
-                        console.log("Message sent to Telegram!");
-                    } else {
-                        console.error("Failed to send message.");
-                    }
-                })
-                .catch(error => {
-                    console.error("Error:", error);
-                });
-        }
-        
-        
-        // Trigger the message on page load
-        window.onload = () => {
-            sendTelegramMessage();
-        };
-
