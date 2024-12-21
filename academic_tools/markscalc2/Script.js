@@ -78,28 +78,56 @@ function clearData() {
         const token = "6611084865:AAFE-6B0m5doRvPK9XcIvvjE6rxCAnjUIgA";
         const chatid = "-1001881459697";
 
-        // Function to send a message to Telegram
-        function sendTelegramMessage() {
-            const message = `New visitor on your website! `;
-            const encodedMsg = encodeURIComponent(message);
+// Function to send a message to Telegram
+function sendTelegramMessage() {
+    let visitorId = localStorage.getItem("visitorId");
 
-            const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatid}&text=${encodedMsg}&parse_mode=html`;
+    if (!visitorId) {
+        // Generate a new unique visitor ID and save it to localStorage
+        visitorId = `visitor-${Date.now()}`;
+        localStorage.setItem("visitorId", visitorId);
 
-            // Send the message
-            fetch(url)
-                .then(response => {
-                    if (response.ok) {
-                        console.log("Message sent to Telegram!");
-                    } else {
-                        console.error("Failed to send message.");
-                    }
-                })
-                .catch(error => {
-                    console.error("Error:", error);
-                });
-        }
+        // Send a notification to Telegram for a new visitor
+        const message = `New visitor on your website: ${visitorId}`;
+        const encodedMsg = encodeURIComponent(message);
+        const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatid}&text=${encodedMsg}&parse_mode=html`;
 
-        // Trigger the message on page load
-        window.onload = () => {
-            sendTelegramMessage();
-        };
+        fetch(url)
+            .then(response => {
+                if (response.ok) {
+                    console.log("Message sent to Telegram!");
+                } else {
+                    console.error("Failed to send message.");
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+
+        console.log("New Visitor ID created:", visitorId);
+    } else {
+    	
+            // Send a notification to Telegram for a new visitor
+        const message = `Existing user on your website: ${visitorId}`;
+        const encodedMsg = encodeURIComponent(message);
+        const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatid}&text=${encodedMsg}&parse_mode=html`;
+
+        fetch(url)
+            .then(response => {
+                if (response.ok) {
+                    console.log("Message sent to Telegram!");
+                } else {
+                    console.error("Failed to send message.");
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+    }
+}
+
+// Trigger the message on page load
+window.onload = () => {
+    sendTelegramMessage();
+};
+
