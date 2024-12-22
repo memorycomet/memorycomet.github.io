@@ -4,7 +4,12 @@ function calculateScore() {
     // Get input values
     const numQuestions = parseInt(document.getElementById('numQuestions').value, 10);
     const correctMarks = parseFloat(document.getElementById('correctMarks').value);
-    const incorrectMarks = parseFloat(document.getElementById('incorrectMarks').value);
+  let incorrectMarks = parseFloat(document.getElementById('incorrectMarks').value);
+    // Check if the input is a positive number or not prefixed with "-"
+   if (!isNaN(incorrectMarks) && incorrectMarks > 0) {
+    // Add a minus sign to make it negative
+    incorrectMarks = -incorrectMarks;
+  }
     const correctlyAttempted = parseInt(document.getElementById('correctlyAttempted').value, 10);
     const incorrectlyAttempted = parseInt(document.getElementById('incorrectlyAttempted').value, 10);
 
